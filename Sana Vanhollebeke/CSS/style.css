@@ -1,0 +1,211 @@
+body
+
+{   
+    
+    
+     background-color:transparent;
+     font-family: courier new;
+     font-size: 3vh;
+     font-weight: 0;
+    
+    
+    
+}
+
+/* les iframes */
+
+.divFrames{
+    
+text-align: center; 
+padding-top: 
+    
+    
+    
+}
+
+
+
+
+iframe{
+
+
+    overflow: hidden; 
+    
+
+    
+    
+}
+
+#frame1{
+    
+   height:234px; 
+   width:1920px;
+    
+  /* height:calc(80vw*595px/1903px); */
+    
+   width:80vw ;
+   height:9.84vw; 
+    
+}
+
+
+#frame2{
+    
+    
+   
+   height:201px; 
+   width:1920px;
+    
+  /* height:calc(80vw*595px/1903px); */
+    
+   width:80vw;
+   height:8.47vw; 
+    
+
+    
+    
+    
+}
+
+
+#frame3{
+    
+    
+    
+   height:472px; 
+   width:1920px;
+    
+  /* height:calc(80vw*595px/1903px); */
+    
+   width:80vw ;
+   height:15vw; 
+    
+    
+    
+    
+    
+}
+
+/* parties de la tete */
+
+.pagePartie{
+    
+ overflow: hidden;   
+ margin: 0;
+ padding: 0;   
+ background-color: transparent;
+    
+    
+    
+}
+
+.partie{
+    
+  width:100vw;  
+    
+align-content: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;  
+    
+}
+
+
+
+
+
+
+#a1{
+  
+
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5px;
+  padding: 3px;
+  
+    
+    
+    
+    
+}
+
+
+p{
+    
+ padding: 30px;   
+ margin: 0px auto;
+ width: 70%; 
+ text-align: center;
+ color:floralwhite;
+    
+}
+
+
+#p2{
+    
+font-size: 15px;
+margin-left: 500
+    
+     {
+        
+        
+        
+        
+        
+        
+    }    
+    }
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
