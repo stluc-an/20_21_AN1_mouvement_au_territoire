@@ -1,0 +1,54 @@
+html{
+	height: 100%;
+}
+
+
+body {
+	background-image: url(./images/basefond.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.complete{
+	background-image: url(./images/goodfond.jpeg);
+	
+	
+}
+
+section {
+
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+			
+		
+#head {
+    /*background-image: url(./images/basehead.png); */
+    position: absolute;
+    left: 52.77%;
+    transform: translate(-50%, 0);
+    height: 682px;
+    width: 682px;
+    bottom: -3.1%;
+}
+
+#chest {
+    position: absolute;
+    left: 51.6%;
+    transform: translate(-50%, 0);
+    height: 270px;
+    width: 198.6px;
+    bottom: 29.8%;
+}
+
+
+#legs {
+    position: absolute;
+    left: 51.8%;
+    transform: translate(-50%, 0);
+    bottom: 1.4%;
+    height: 391px;
+    width: 114.33;
+}
