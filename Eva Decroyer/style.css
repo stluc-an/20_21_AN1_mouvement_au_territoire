@@ -1,0 +1,145 @@
+body 
+{
+/* background-image: url(images/vert.png); */
+background-image: url(images/atlas.png);
+font-size: 2vw;
+cursor: cell;
+}
+
+h1 
+{
+font-family: "Lucida Console", "Courier New", monospace;
+font-weight:normal;
+font-size: 2.6vw; 
+text-align: center;
+align-content: center;
+}
+
+
+
+/* PAGES---------------------------------------------*/
+#carte
+{
+position: relative;
+width: 70%;
+margin: auto;
+padding: 0.5% 2% 2% 2%;
+
+border-radius: 1vw;
+border: 0.3vw solid rgba(0, 0, 0, 0.8);
+background-image: url(images/papier.png);
+background-color: #fff;
+box-shadow: 0.7vw 1vw 0.5vw rgba(0,0,0,0.3);
+}
+
+.pays
+{
+width: 70%;
+margin: auto;
+padding: 0.5% 2% 2% 2%;
+
+border-radius: 1vw;
+border: 0.3vw solid rgba(0, 0, 0, 0.8);
+background-image: url(images/papier.png);
+background-color: #fef9e7;
+box-shadow: 0.7vw 1vw 0.5vw rgba(0,0,0,0.3);
+
+font-family: "Courier New", monospace;
+}
+
+#planisphere
+{
+width: 100%;
+}
+
+.photos
+{
+display: block;
+width: 100%;
+margin: auto;
+}
+
+
+
+/* TITRES------------------------------------------ */
+.titre
+{
+padding: 2%;
+color: black;
+box-shadow: 0.2vw 0.2vw 0.4vw rgba(0,0,0,0.3);
+}
+
+#titre_index{
+background-color: #C63706;
+}
+
+#titre_home{
+background-color: #FFFEA3;
+}
+
+#titre_canada{
+background-color: #AED6F1;
+}
+
+#titre_australie{
+background-color: #EDBB99;
+}
+
+#titre_afriquedusud{
+background-color: #A3E4D7;
+}
+
+#titre_japon{
+background-color: #D2B4DE;
+}
+
+#titre_argentine{
+background-color: #FEC98D;
+}
+
+
+
+/* BOUTONS---------------------------------------------*/
+
+.button{
+position: absolute;
+width: 3%;
+height: 5%;
+border: 0.5vw solid rgba(0,0,0,0);
+}
+
+.button:hover{
+border: 0;
+}
+
+#home{
+width: 6%;
+height: 10%;
+top: 33%;
+left: 40%;
+}
+
+#canada{
+top: 31%;
+left: 18%;
+}
+
+#australie{
+top:80%;
+left: 85%;
+}
+
+#afriquedusud{
+top: 80%;
+left: 45%;
+}
+
+#argentine{
+top: 75%;
+left: 22%;
+}
+
+#japon{
+top: 49%;
+left: 91%;
+}

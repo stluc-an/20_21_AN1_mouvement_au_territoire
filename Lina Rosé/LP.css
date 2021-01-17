@@ -1,0 +1,34 @@
+body  {
+    background: url(LUA/backkk%20petite.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+p {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 140px;
+    position: fixed;
+    bottom: 430px;
+    right: 700px;
+    width: auto;
+    color: aliceblue   
+}
+
+p2 {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 45px;
+    position: fixed;
+    bottom: 560px;
+    right: 150px;
+    width: auto;
+    color: aliceblue
+    
+}
+
+p3 {
+    position: absolute; width: 200px; top: 680px; left: 150px; height: 45px;
+    font-size: 20px;
+    color: #ffc400;
+    background-color:darkmagenta
+}

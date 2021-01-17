@@ -1,0 +1,31 @@
+body {
+    background-image: url(GRINI/foret%20back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: absolute; top: 200px; width: 450px; left: 550px; bottom: 200px;
+}
+
+p {
+    position: absolute; top: 0px; right: 300px;
+    color:floralwhite;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 150px;
+}
+
+p1 {
+    position: absolute; top: 300px; left: 100px; width: 500px;
+    font-size: 45px;
+    font-family: 'Just Me Again Down Here', cursive;
+    color: floralwhite;
+}
+
+p2 {
+    position: absolute; bottom: 40px; left: 200px; width: 300px;
+    font-size: 35px;
+    font-family: 'Just Me Again Down Here', cursive;
+    color: cadetblue;
+    background-color: floralwhite;
+}

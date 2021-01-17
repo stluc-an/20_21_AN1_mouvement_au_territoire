@@ -1,0 +1,41 @@
+body {
+    background-image: url(backkkprin.jpg);
+    position: absolute;
+    top: 250px;
+    left: 140px;
+}
+
+p {
+    position: fixed; top: 0px; left: 230px;
+    font-size: 50px;
+    color: #ffa733;
+    font-family: 'Texturina', serif;
+}
+
+p1 {
+    position: fixed; top: 130px; left: 230px;
+    font-size: 40px;
+    color: #ffa733;
+    font-family: 'Texturina', serif;
+}
+
+p2 {
+    position: fixed; bottom: 30px; left: 300px;
+    font-size: 60px;
+    color:#ffc608;
+    font-family: 'Just Me Again Down Here', cursive;
+}
+
+p3 {
+    position: fixed; bottom: 40px; left: 650px;
+    font-size: 45px;
+    color: #ffc608;
+    font-family: 'Goldman',cursive;
+}
+
+p4 {
+    position: fixed; bottom: 40px; right: 350px;
+    font-size: 60px;
+    color: #ffc608;
+    font-family:'East Sea Dokdo', cursive;
+}

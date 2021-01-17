@@ -1,0 +1,20 @@
+body {
+    background-image: url(GRINI/cuillere%20zoom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    position: absolute; top: 200px; left: 100px; width: 600px;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 70px;
+    color: cornsilk;
+}
+
+p1 {
+    position: absolute; bottom: 200px; right: 100px; width: 500px;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 40px;
+    color: cadetblue;
+    background-color: floralwhite;
+}

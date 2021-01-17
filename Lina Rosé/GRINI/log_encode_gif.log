@@ -1,0 +1,275 @@
+ffmpeg version N-87327-g18821e3 Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-cuda --enable-cuvid --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-nvenc --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libfreetype --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib
+  libavutil      55. 75.100 / 55. 75.100
+  libavcodec     57.106.101 / 57.106.101
+  libavformat    57. 82.100 / 57. 82.100
+  libavdevice    57.  8.101 / 57.  8.101
+  libavfilter     6.105.100 /  6.105.100
+  libswscale      4.  7.103 /  4.  7.103
+  libswresample   2.  8.100 /  2.  8.100
+  libpostproc    54.  6.100 / 54.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Lina/AppData/Local/Temp/KritaFFmpegProgress.mYNbpO'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/Grini perso2_001.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Lina/AppData/Local/Temp/KritaFFmpegProgress.mYNbpO.
+[file @ 0000000002725da0] Setting default whitelist 'file,crypto'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame%04d.png.
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0000.png' for reading
+[file @ 000000000069a360] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000276efa0] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0001.png' for reading
+[file @ 000000000279fe60] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000276efa0] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0002.png' for reading
+[file @ 000000000279eb00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069db20] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0003.png' for reading
+[file @ 000000000069db20] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069dbe0] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0004.png' for reading
+[file @ 000000000069dba0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069e5e0] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0005.png' for reading
+[file @ 000000000069e5e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069e6c0] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0006.png' for reading
+[file @ 000000000069e680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069e860] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0007.png' for reading
+[file @ 000000000069e860] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069e920] Statistics: 194518 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0008.png' for reading
+[file @ 000000000069e8e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069eac0] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0009.png' for reading
+[file @ 000000000069eac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069eba0] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0010.png' for reading
+[file @ 000000000069eb60] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069ed40] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0011.png' for reading
+[file @ 000000000069ed40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000000000069ee00] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0012.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000000027d77a0] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0013.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0014.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0015.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194682 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0016.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0017.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0018.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0019.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0020.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0021.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0022.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0023.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0024.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194208 bytes read, 0 seeks
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0025.png' for reading
+[file @ 000000000069edc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002bd0980] Statistics: 194873 bytes read, 0 seeks
+[image2 @ 0000000002766160] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame%04d.png':
+  Duration: 00:00:01.76, start: 0.000000, bitrate: N/A
+    Stream #0:0, 26, 1/25: Video: png, 1 reference frame, rgba64be(pc), 400x500 [SAR 2834:2834 DAR 4:5], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png.
+[NULL @ 000000000279ec80] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png' for reading
+[file @ 0000000002bd0980] Setting default whitelist 'file,crypto'
+[png_pipe @ 000000000279ec80] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000000000279ec80] Before avformat_find_stream_info() pos: 0 bytes read:684 seeks:0 nb_streams:1
+[png_pipe @ 000000000279ec80] After avformat_find_stream_info() pos: 684 bytes read:684 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+detected 12 logical cores
+Parsing a group of options: output url C:/Users/Lina/OneDrive/Documents/TERRITOIRE/Grini perso2_001.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/Lina/OneDrive/Documents/TERRITOIRE/Grini perso2_001.gif.
+[file @ 0000000002b7c500] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 14 times
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'video_size' to value '400x500'
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'pix_fmt' to value '115'
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0000000002e83660] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0000000002e83660] w:400 h:500 pixfmt:rgba64be tb:1/24 fr:24/1 sar:2834/2834 sws_param:flags=2
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'pix_fmt' to value '28'
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 1:0 @ 0000000002e83740] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 0000000002e83740] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1 sws_param:flags=2
+[format @ 00000000027e2ec0] compat: called with args=[rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8]
+[format @ 00000000027e2ec0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 0000000002b81280] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000000000279fde0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 0000000002b81d20] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000000000279fde0] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 0000000002bcfec0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 0000000002ee6960] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000000002b81280] w:400 h:500 fmt:rgba64be sar:2834/2834 -> w:400 h:500 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 0000000008ee00a0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0000000002b81d20] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000000000279fde0] [framesync @ 0000000002f1c368] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 000000000279fde0] [framesync @ 0000000002f1c368] Sync level 2
+Output #0, gif, to 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/Grini perso2_001.gif':
+  Metadata:
+    encoder         : Lavf57.82.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 400x500 [SAR 1:1 DAR 4:5], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc57.106.101 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+    Last message repeated 6 times
+[gif @ 000000000069b9c0] 303x450 image at pos (35;20) [area:400x500]
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+    Last message repeated 4 times
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0026.png' for reading
+[file @ 0000000002b81b80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab620] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0027.png' for reading
+[file @ 0000000002b819e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eabb20] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0028.png' for reading
+[file @ 0000000002b81ec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eac020] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 303x450 image at pos (35;20) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0029.png' for reading
+[file @ 0000000002b810e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab9e0] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0030.png' for reading
+[file @ 0000000002b81900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab620] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0031.png' for reading
+[file @ 0000000002b81900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab620] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0032.png' for reading
+[file @ 0000000002b816a0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab9e0] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0033.png' for reading
+[file @ 0000000002b81900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab9e0] Statistics: 194873 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0034.png' for reading
+[file @ 0000000002b81ec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eac160] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0035.png' for reading
+[file @ 0000000002b81500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab8a0] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0036.png' for reading
+[file @ 0000000002b81c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab8a0] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0037.png' for reading
+[file @ 0000000002b81ec0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab620] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 303x450 image at pos (35;20) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0038.png' for reading
+[file @ 0000000002b819e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eabb20] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0039.png' for reading
+[file @ 0000000002b819e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eac020] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0040.png' for reading
+[file @ 0000000002b81900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab760] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0041.png' for reading
+[file @ 0000000002b81840] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eac160] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0042.png' for reading
+[file @ 0000000002b81020] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eabc60] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+[image2 @ 0000000002766160] Opening 'C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame0043.png' for reading
+[file @ 0000000002b81760] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000000002eab4e0] Statistics: 194720 bytes read, 0 seeks
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+    Last message repeated 2 times
+[gif @ 000000000069b9c0] 303x450 image at pos (35;20) [area:400x500]
+[gif @ 000000000069b9c0] 1x1 image at pos (399;499) [area:400x500]
+    Last message repeated 8 times
+[Parsed_paletteuse_0 @ 000000000279fde0] [framesync @ 0000000002f1c368] Sync level 0
+[out_0_0 @ 00000000027e2de0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   44 fps=0.0 q=-0.0 Lsize=     117kB time=00:00:01.80 bitrate= 532.5kbits/s speed=4.92x    
+[AVIOContext @ 0000000002766020] Statistics: 0 seeks, 1 writeouts
+video:116kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.971708%
+Input file #0 (C:/Users/Lina/OneDrive/Documents/TERRITOIRE/frame%04d.png):
+  Input stream #0:0 (video): 44 packets read (8562529 bytes); 44 frames decoded; 
+  Total: 44 packets (8562529 bytes) demuxed
+Input file #1 (C:/Users/Lina/OneDrive/Documents/TERRITOIRE/palette.png):
+  Input stream #1:0 (video): 1 packets read (684 bytes); 1 frames decoded; 
+  Total: 1 packets (684 bytes) demuxed
+Output file #0 (C:/Users/Lina/OneDrive/Documents/TERRITOIRE/Grini perso2_001.gif):
+  Output stream #0:0 (video): 44 frames encoded; 44 packets muxed (118657 bytes); 
+  Total: 44 packets (118657 bytes) muxed
+45 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0000000002b7c5e0] Statistics: 0 seeks, 2 writeouts
+[AVIOContext @ 00000000027d8d40] Statistics: 684 bytes read, 0 seeks

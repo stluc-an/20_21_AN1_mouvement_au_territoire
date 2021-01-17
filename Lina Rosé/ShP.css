@@ -1,0 +1,29 @@
+body {
+     background: url(SHUNE/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+P {
+    position: fixed; top: 0px; left: 40px;
+    font-size: 100px;
+    font-family: 'Goldman', cursive;
+    color: cornsilk;
+}
+
+p1 {
+    position: fixed; top: 215px; left: 60px; width: 380px;
+    font-size: 35px;
+    font-family: 'Goldman', cursive;
+    color: cornsilk;
+}
+
+p2 {
+    position: fixed; bottom: 200px; right: 450px; width: 200px;
+    font-size: 20px;
+    font-family: 'Goldman',cursive;
+    color: crimson;
+    background-color: cornsilk;
+}

@@ -1,0 +1,47 @@
+body {
+    background-image:url(LUA/zoomgrenouille.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+img {
+    position: fixed; top: 160px; left: 380px; width: 600px;
+}
+
+
+p { 
+    position:absolute; top: 50px; left: 200px; width: 1000px;
+    font-size: 55px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: aliceblue
+}
+
+p1 {
+    position: absolute; top: 180px; left: 200px; width: 850px;
+    font-size: 55px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: #ffa700;
+}
+
+p2 {
+    position: absolute; top: 250px; left: 200px; width: 900px;
+    font-size: 55px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: aliceblue;
+}
+
+p3 {
+    position: absolute; top: 400px; right: 1000px; width: 500px;
+    font-size: 40px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: aliceblue;
+}
+
+p4 {
+    position: absolute; top: 600px; left: 1000px; width: auto;
+    font-size: 50px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: #ffee23;
+    background-color: darkmagenta;
+
+}

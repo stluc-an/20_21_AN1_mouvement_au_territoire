@@ -1,0 +1,46 @@
+body 
+{
+	background-color: black;
+	color: blue 
+	;
+}
+
+.picture-left{
+	 float: left;
+}
+
+ul {
+	list-style-type :  none;
+	padding: 100px;
+}
+
+.container .text {
+	
+	font-size: 30%
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 7%;
+    color: white;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

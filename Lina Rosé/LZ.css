@@ -1,0 +1,24 @@
+body {
+    background-image: url(LUA/zoomback%20Lua.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: fixed; top: 0px; left: 100px; width: 1000px;
+}
+
+p {
+    position:absolute; top: 50px; left: 200px; width: 700px;
+    font-size: 110px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: aliceblue
+}
+
+p1 {
+    position: absolute; top: 600px; right: 100px;
+    font-size: 45px;
+    font-family:'East Sea Dokdo', cursive;
+    color: #fdcc26;
+    background-color: darkmagenta;
+}

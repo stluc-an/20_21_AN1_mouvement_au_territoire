@@ -1,0 +1,10 @@
+
+
+function resizebackground ()
+( 
+
+	$ ("background").css({
+
+		
+
+	})
