@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+    margin: auto;
+}
+.slider{
+    margin: auto;
+    display: block;   
+}
+
+.main{
+    background: url("Title/background.png");
+}
+
+.advice{
+    color: white;
+    position: absolute
+}
+
+.nav{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.btn{
+    display:block;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+    width: 210px;
+    height: 90px;
+    
+}
+
+.btn-animated{
+    background: url(Buttons_Small/Animated_OFF.png);
+}
+.btn-animated-active{
+    background: url(Buttons_Small/Animated%20_ON.png);
+}
+
+.btn-draw{
+    background: url(Buttons_Small/Draw_OFF.png);
+}
+.btn-draw-active{
+    background: url(Buttons_Small/Draw_ON.png);
+}
