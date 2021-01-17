@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+	width: 1%;
+}
+.corbeau{
+	position: relative;
+	left: 450px;
+	bottom: 50px;
+}
+.voleur{
+	position: relative;
+	bottom: 550px;
+}
+.curse{
+	position: relative;
+	bottom: 500px;
+}
+.envol{
+	position: relative;
+	bottom: 450px;
+}
+.satyre{
+	position: relative;
+	bottom: 400px;
+}
+.redemption{
+	position: relative;
+	bottom: 350px;
+}
+.intro{
+	color: white;
+	position: relative;
+	bottom: 1600px;
+	left: 400px; 
+	text-align: center;
+	font-family: fantasy;
+
+}
+
