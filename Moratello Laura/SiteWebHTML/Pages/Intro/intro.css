@@ -1,0 +1,110 @@
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: #270001;
+    font-family: monospace, "Courrier New";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    
+}
+
+p:hover {
+ color:#932023;
+}
+
+#Background {
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+}
+
+#Texte {
+  
+    height: 6%;
+    position: absolute;
+    top: 77%;
+    width: 4.5%;
+    left: 80%;
+    background-color: #fce0e0;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #270001;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    opacity: 0%;
+    animation-duration: 1s;
+    animation-name: button;
+    animation-delay: 14.5s;  
+    animation-fill-mode: forwards;
+    }
+
+@keyframes button {
+    0% {opacity: 0%;}
+    100% {opacity: 100%}
+}
+
+
+#Intro1 {
+    z-index: 3;  
+    height: 68%;
+    position: absolute;
+    top: 8%;
+    left: 18vh;
+    animation-duration: 5s;
+    animation-name: a;
+    animation-delay: 1s;
+    opacity: 0%;
+}
+
+@keyframes a {
+    0% {opacity: 0%;}
+    20% {opacity: 100%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+#Intro2 {
+    z-index: 3;  
+    height: 68%;
+    position: absolute;
+    top: 8%;
+    left: 60vh;
+    animation-duration: 5s;
+    animation-name: b;
+    animation-delay: 6s;
+    opacity: 0%;
+}
+@keyframes b {
+    0% {opacity: 0%;}
+    20% {opacity: 100%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
+#Intro3 {
+    z-index: 3;  
+    height: 68%;
+    position: absolute;
+    top: 8%;
+    left: 102vh;
+    animation-duration: 5s;
+    animation-name: c;
+    animation-delay: 11s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+@keyframes c {
+    0% {opacity: 0%;}
+    20% {opacity: 100%;}
+    80% {opacity: 100%;}
+    100% {opacity: 100%}
+}

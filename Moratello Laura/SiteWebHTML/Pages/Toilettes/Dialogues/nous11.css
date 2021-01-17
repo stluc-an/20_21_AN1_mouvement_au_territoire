@@ -1,0 +1,32 @@
+body {
+      background-color: #786565;
+}
+
+p {
+    color: #270001;
+    text-align: right;
+    font-family: monospace, "Courrier New";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Texte {
+    height: 16%;
+    position: absolute;
+    width: 87.8%;
+    background-color: #fce0e0;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #270001;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden; 
+}
+
+p:hover {
+ color:#932023;
+}
+a{text-decoration: none}

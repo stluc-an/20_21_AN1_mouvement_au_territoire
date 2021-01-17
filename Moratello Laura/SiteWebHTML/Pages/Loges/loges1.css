@@ -1,0 +1,52 @@
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {color: #9b0005;
+    text-align: center;
+    font-family: monospace, "Courrier New";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#Background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#Loges {
+     
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10vh;
+    box-shadow: 5px 5px 5px;
+}
+
+#Emily {
+    z-index: 2;  
+    height: 25%;
+    position: absolute;
+    top: 10%;
+    left: 55.5%;
+    box-shadow: 5px 5px 5px;
+ }
+
+#Dialogues {
+    z-index: 3; 
+    height: 51%;
+    position: absolute;
+    top: 38%;
+    width: 30%;
+    left: 48%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #270001;
+    overflow: hidden;
+    
+}

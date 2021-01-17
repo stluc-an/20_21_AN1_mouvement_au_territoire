@@ -1,0 +1,95 @@
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: #270001;
+    font-family: monospace, "Courrier New";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#Background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#Loges {
+    z-index: 3;  
+    height: 5%;
+    position: absolute;
+    top: 30%;
+    left: 18vh;
+}
+
+#Toilettes {
+    z-index: 3;  
+    height: 5%;
+    position: absolute;
+    top: 47%;
+    left: 54.5vh;
+}
+
+#Bar {
+    z-index: 3;  
+    height: 5%;
+    position: absolute;
+    top: 65%;
+    left: 37.5vh;
+}
+
+#Vestiaires {
+    transition-duration: 0.2s;
+    z-index: 3;  
+    height: 5%;
+    position: absolute;
+    top: 53%;
+    left: 21vh;
+}
+
+#Vestiaires:hover{
+    height: 8%;
+    top: 51.5%;
+    left: 19.5vh;
+}
+
+#Scene {
+    
+    z-index: 3;  
+    height: 5%;
+    position: absolute;
+    top: 35%;
+    left: 37vh;
+}
+      
+#Plan {
+    
+    height: 80%;
+    position: absolute;
+    top: 10%;
+}
+
+#Texte {
+  
+    height: 8%;
+    position: absolute;
+    top: 38%;
+    width: 30%;
+    left: 45%;
+    background-color: #fce0e0;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #270001;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}

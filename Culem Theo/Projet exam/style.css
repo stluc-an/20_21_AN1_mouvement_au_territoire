@@ -1,0 +1,511 @@
+body{
+    background-image: url(Drapeau1.jpg);
+    background-size:cover;
+    }
+body#page2{
+    background-image: url(Declaration1.jpg);
+    position: relative;
+    left: 20em;
+}
+p#page2{
+    position:relative;
+    left:2em; top:1em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 4.4em;
+    font-family:fantasy;
+}
+body#ObamaCare{
+    background-image: url(ObamaCare.jpg);
+ }
+p#ObamaCare{
+    position: relative;
+    top:1em;
+    left:9em;
+    font-size:80;
+    font-family:fantasy;
+    
+}
+a#back2{
+    position:fixed;
+    top:-4em;
+    left:-2em;
+    font-size: 32;
+    font-weight:bold;
+    }
+body#pageGameOver{
+    background-image: url(GameOver.jpg);
+    background-position:0% 15%;
+}   
+a#back1{
+    position:fixed;
+    top:-4em;
+    left:-3em;
+    font-size: 32;
+    font-weight:bold;
+    }
+p#Over1{ 
+    font-size: 30;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:27%;
+    }
+body#page2Win{
+    background-image: url(Victoire.jpg);
+}
+a#nextMur{
+    position:fixed;
+    left:48em;
+    top:-5em;
+    font-size: 35;
+    font-weight:bold;
+    color:white;
+}
+a#backMur{ 
+    position:fixed;
+    left:42em;
+    top:-5em;
+    font-size: 35;
+    font-weight:bold;
+    color:white;
+}
+body#golf{
+    background-image: url(TrumpGolf.jpg);
+    background-position: 12% 30000;
+}
+p#titreGolf{
+    position:relative;
+    left:5em; top:1em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 3em;
+    font-family: fantasy;
+}
+body#gateau{
+    background-image: url(TrumpGateau1.jpg);
+    background-position: 1
+}
+p#nextGateau{
+    text-decoration: none;
+    position:fixed;
+    left:48em;
+    top:-5.9em;
+    font-size: 35;
+    font-weight:bold;
+}
+a#backGateau{
+    position:fixed;
+    top:-4.9em;
+    left:42em;
+    font-size: 35;
+    font-weight:bold;
+}
+body#Kim{
+    background-image:url(TrumpEtKim.jpeg);
+}
+a#nextKim{
+    position:fixed;
+    left:48em;
+    top:-5em;
+    font-size: 35;
+    font-weight:bold;
+}
+a#backKim{
+    position:fixed;
+    top:-5em;
+    left:42em;
+    font-size: 35;
+    font-weight:bold;
+}
+body#Ramadan{
+    background-image: url(Ramadan.jpg);
+    background-position:15000 100000;
+    background-size:240em
+    
+}
+a#backRamadan{
+    position:fixed;
+    top:-3.7em;
+    left:-3em;
+    font-size: 35;
+    font-weight:bold;
+}
+p#Ramadan{ 
+    font-size: 30;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:15%;
+    }
+body#VraiFaux{
+    background-image:url(TrumpVraiFaux.jpg);
+}
+img#VraiFauxGif{
+    position: relative;
+    top:-30em; left:90em;
+    width: 600
+}
+p#titreVraiFaux{
+    position:relative;
+    left:2em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 3.8em;
+    font-family:fantasy;
+}
+body#Arme{
+    background-image: url(Arme.jpg);
+}
+a#backArme{
+    position:fixed;
+    top:-2em;
+    left:-3.5em;
+    font-size: 35;
+    font-weight:bold;
+}
+img#USAFirst{
+    position:relative;
+    top:-10em; left:60em;
+    width:40%;
+    }
+p#Arme{ 
+    font-size: 35;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:40%;
+}
+p#Arme2{ 
+    position:relative;
+    top:-1.2em;
+    font-size: 25;
+    color: red;
+    text-decoration: red wavy underline;
+}
+body#Racisme{
+    background-image:url(Racisme.jpg);
+}
+a#backRacisme{
+    position:fixed;
+    top:-2em;
+    left:-3.5em;
+    font-size: 35;
+    font-weight:bold;
+}
+p#Racisme{ 
+    font-size: 50;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:100%;
+}
+p#Racisme2{ 
+    position:relative;
+    top:-1.2em;
+    font-size: 30;
+    color: red;
+    text-decoration: red wavy underline;
+    width:100%;
+}
+body#Ok{
+    background-image:url(TrumpRechaufementClimatique.jpg);
+}
+p#TextOk{ 
+    font-size: 30;
+    color: red;
+    text-decoration: red wavy underline;
+    width:25%;
+    
+}
+a#NextOk{
+    position:fixed;
+    left:48em;
+    top:-5em;
+    font-size: 35;
+    font-weight:bold;
+}
+a#BackOk{
+    position:fixed;
+    top:-5em;
+    left:42em;
+    font-size: 35;
+    font-weight:bold;
+}
+body#corona{
+    background-image:url(TrumpCorona.jpg);
+}
+p#titreCorona{
+    position:relative;
+    top:-8em; left:7em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 3.7em;
+    font-family: fantasy;
+}
+p#Corona{ 
+    position:relative;
+    top:-3em; left:2em;
+    font-size: 30;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:35%;
+    }
+img#CoronaGif{
+    position:relative;
+    left:79em;
+}
+body#TrumpFin{
+    background-image:url(TrumpFin.jpg);
+}
+p#final1{ 
+    font-size: 50;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:100%;
+    }
+p#final2{ 
+    position:relative;
+    top:-1.2em;
+    font-size: 30;
+    color:red;
+    text-decoration: red wavy underline;
+    width:40%;
+    }
+a#final{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    position: relative;
+    font-size:50;
+    }
+body#MasqueObligatoire{
+    background-image:url(MasqueObligatoire.jpg);
+}
+a#backMasque{
+    position:fixed;
+    top:-3em;
+    left:-3em;
+    font-size: 35;
+    font-weight:bold;
+}
+p#Masque{ 
+    font-size: 50;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:20%;
+    background: none;
+    }
+body#Confinement{
+    background-image: url(Confinement.jpg);
+}
+a#backConfinement{
+    position:fixed;
+    top:-3em;
+    left:-3em;
+    font-size: 35;
+    font-weight:bold;
+}
+p#Confinement{ 
+    font-size: 50;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:100%;
+    background:none;
+}
+body#Sun{
+    background-image: url(Soleil.jpg);
+}
+p#ContreLeCorona{ 
+    font-size: 50;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    background:none;
+}
+a#NextContreLeCorona{
+    position:fixed;
+    left:48em;
+    top:-5em;
+    font-size: 35;
+    font-weight:bold;
+}
+a#BackContreLeCorona{
+    position:fixed;
+    top:-5em;
+    left:42em;
+    font-size: 35;
+    font-weight:bold;
+}
+h1#titreIndex{
+    position:relative;
+    left:3em;
+    margin: 10vh;
+    height: 20vh;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 9em;
+    font-family:fantasy;
+    
+}
+img#gif1{
+    position: relative;
+    left:24em;
+    width:400;
+}
+#fleche{
+    position:absolute;
+    top:12em;
+    left:25em; 
+    width: 500;
+    }
+img#DanceEpaule{
+    position:relative;
+    top:0em;
+    left:2em;
+    width:400;
+}
+img#DanceSwitch{
+    position:relative;
+    top:20em;
+    left:68em;
+    width:400;
+}
+p#titreBiden{
+    position:relative;
+    top:1em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 40%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 5em;
+}
+p#FinalBiden{ 
+    position:relative;
+    top:-6.8em; left:38em;
+    font-size: 40;
+    color: white;
+    text-decoration: white wavy underline;
+    width:20%;
+    
+}
+p#titre{
+    margin: 10vh;
+    height: 20vh;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-color: darkblue;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: darkblue;
+    width: 50%;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: darkblue;
+    font-size: 3em;
+}
+p{ 
+    font-size: 30;
+    color: darkblue;
+    text-decoration: darkblue wavy underline;
+    width:30%;
+    
+}
+p#next{
+    text-decoration: none;
+}
+.PMur:hover{
+    background-color: white;
+}
+p:nth-child(2n+1){
+    background-color: white;
+}
+.un{
+    position: relative;
+    right:4em;
+    top:2em;
+    font-size:40;
+    font-family:sans-serif;
+    list-style-type:circle;
+    color: darkblue;
+    width:16%;
+    
+    
+    
+}
+.deux{
+     position:relative;
+     top:3em; left:1em;
+     font-size: 24;
+     font-family:sans-serif;
+     list-style: inside;
+     list-style-type:circle;
+     color:darkblue;
+     
+    }
+.trois{
+    position: relative;
+    top: -15em; left:3em; 
+    font-size: 36;
+    font-family:sans-serif;
+     list-style: inside;
+     list-style-type:circle;
+     color: darkblue;
+    background:white;
+    width:13%;
+}
+.quatre{
+    position:relative;
+    top:-8em; left:45em; 
+    font-size: 30;
+    font-family:sans-serif;
+     list-style: inside;
+     list-style-type:circle;
+     color: darkblue;
+    width:25%
+    
+}
+a#back{
+    position:fixed;
+    top:2em;
+    left:0em;
+    font-size: 35;
+    font-weight:bold;
+}
+
+body#FinalJoe{
+    background-image:url("JoeBiden.png");
+    background-position: cover;
+}

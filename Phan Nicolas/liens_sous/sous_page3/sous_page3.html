@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="../lib/p5/p5.js"></script>
+  <script src="../lib/p5/addons/p5.sound.min.js"></script>
+  <script src="sous_page3_sketch.js"></script>
+   <link rel="stylesheet" href="sous_page3_style.css"/>
+</head>
+
+<body>
+
+
+
+<section>
+
+  <div class="loader">
+     <img src="loader.gif" alt="">
+   </div>
+
+  <div id="background">
+    <img src ="33.png">
+  </div>
+
+  <div id="suivant">
+    <img src="premier.png">
+  </div>
+
+  <div id="lumiere">
+    <img src="lumiere.png">
+  </div>
+
+  <div id="marie">
+    <img src="marie.png">
+  </div>
+
+  <div id="parpaing">
+    <img src="parpaing.png">
+  </div>
+
+  <div id="parpaing2">
+    <img src="parpaing2.png">
+  </div>
+
+  <div id="background2">
+    <img src ="34.png">
+  </div>
+
+  <div id="light">
+    <img src="light.png">
+  </div>
+
+  <img src="cinq.png" id="cinq">
+  <img src="quatre.png" id="quatre">
+  <img src="lune1.png" id="lune1">
+  <img src="lune2.png" id="lune2">
+  <img src="lune3.png" id="lune3">
+  <img src="trois.png" id="trois">
+  <img src="deux.png" id="deux">
+  <img src="un.png" id="un">
+
+
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+let quatre=document.getElementById("quatre");
+let lune1=document.getElementById("lune1");
+let lune2=document.getElementById("lune2");
+let lune3=document.getElementById("lune3");
+let trois=document.getElementById("trois");
+let deux=document.getElementById("deux");
+let un=document.getElementById("un");
+let background=document.getElementById("background");
+let lumiere=document.getElementById("lumiere");
+let planete=document.getElementById("planete");
+let parpaing=document.getElementById("parpaing");
+let parpaing2=document.getElementById("parpaing2");
+let marie=document.getElementById("marie");
+let background2=document.getElementById("background2");
+let light=document.getElementById("light");
+
+
+
+window.addEventListener('scroll',function(){
+  var value=window.scrollY;
+
+
+  quatre.style.top = value  * 0.5 + 'px';
+  lune1.style.left = -value * 0.5 + 'px';
+  lune2.style.left = -value * 0.2 + 'px';
+  lune3.style.left = -value * 1 + 'px';
+  trois.style.top= -value * 0.3 + 'px';
+  deux.style.top= -value * 0.6 + 'px';
+  cinq.style.top= value * 0.2 + 'px';
+  background.style.top = value * 0.7 + 'px';
+  lumiere.style.top = value * 0.7 + 'px';
+  parpaing.style.top= -value * 0.5 +'px';
+  parpaing2.style.top= -value * 1.1 +'px';
+  background2.style.top= -value * 0.9 + 'px';
+  light.style.top = -value * 0.6 + 'px';
+
+
+})
+</script>
+
+</body>
+
+</html>

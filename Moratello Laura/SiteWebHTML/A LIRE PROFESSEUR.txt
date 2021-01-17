@@ -1,0 +1,17 @@
+
+Bonjour ! 
+
+J'ajoute cette petite note au dossier pour insister sur certains points importants concernant la lecture du site :
+
+1) 	Veuillez commencer avec le dossier StartHere
+
+2) 	Veuillez jouer en plein écran
+
+3) 	Evitez si possible les retours en arrière. Si une bulle de dialogue ne s'affiche pas, actualisez la page.
+
+4) 	Il y avait initialement de la musique qui accompagnait l'expérience, mais depuis 2020, Chrome et Firefox 
+	ne supportent plus la fonction "autoplay" et je ne pouvais pas me résoudre esthétiquement à laisser le 
+	lecteur mp3 affiché devant le reste de la page. Cependant, je vous invite à regarder dans le dossier 
+	Recherches->Musiques->music.mp3 afin de découvrir l'ambiance sonore qui était prévue.
+
+Merci et bonne découverte !

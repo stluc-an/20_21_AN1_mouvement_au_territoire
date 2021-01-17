@@ -1,0 +1,56 @@
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    color: #270001;
+    font-family: monospace, "Courrier New";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#Background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#Bar {
+     
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10vh;
+    box-shadow: 5px 5px 5px;
+}
+
+#Texte {
+  
+    height: 18%;
+    position: absolute;
+    top: 38%;
+    width: 20%;
+    left: 52%;
+    background-color: #fce0e0;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #270001;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+
+p:hover {
+ color:#932023;
+}
+
+a {text-decoration: none}
