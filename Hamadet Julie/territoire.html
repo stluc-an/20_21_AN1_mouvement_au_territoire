@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="territoire.css">
+
+	<title>Le Manuscrit de l'Hanagyo</title>
+</head>
+<body>
+	
+		<div class="text">
+		<p>←</p>	
+		</div>
+
+	<section id="home">
+		<img src="./assets/fond.webp" id="background_img"/>
+		<img src="./assets/decorMont3.webp" id="mont3_img"/>
+		<img src="./assets/decorMont2.webp" id="mont2_img"/>
+		<img src="./assets/decorLune.webp" id="lune_img"/>
+		<img src="./assets/decorKappa.webp" id="kappa_img"/>
+		
+
+		<img src="./assets/poisson1.webp" id="poisson1_img"
+		onmouseover="this.src='./assets/poisson1bis.webp';"
+		onmouseout="this.src='./assets/poisson1.webp';"
+			 />
+		<img src="./assets/poissongif.gif" id="poisson2_img"/>
+		<img src="./assets/poisson3.webp" id="poisson3_img"
+		onmouseover="this.src='./assets/poisson3bis.webp';"
+		onmouseout="this.src='./assets/poisson3.webp';"
+			 />
+		<img src="./assets/poisson4.webp" id="poisson4_img"/>
+		
+		<img src="./assets/ecritures.webp" id="ecritures_img"/>
+		
+		<img src="./assets/luneseul.png" id="motlune_img"
+		onmouseover="this.src='./assets/lunegros.png';"	
+		onmouseout="this.src='./assets/luneseul.png';"
+			 />
+		<img src="./assets/sommeilseul.png" id="motsommeil_img"
+		onmouseover="this.src='./assets/sommeilgros.png';"
+		onmouseout="this.src='./assets/sommeilseul.png';"
+			/>
+		<img src="./assets/bulleseul.png" id="motbulle_img"
+		onmouseover="this.src='./assets/bullegros.png';"
+		onmouseout="this.src='./assets/bulleseul.png';"
+			 />
+		<img src="./assets/fleurseul.png" id="motfleur_img"
+		onmouseover="this.src='./assets/fleurgros.png';"
+		onmouseout="this.src='./assets/fleurseul.png';"
+			 />
+	</section>
+
+  	<section id="s1" class="dn">
+      	<img src="./assets/legende1.webp" id="legende1_img">
+		<img src="./assets/carte1.webp" id="carte1_img">
+	</section>
+	
+	<section id="s2" class="dn">
+      <img src="./assets/legende2.webp" id="legende2_img">
+	  <img src="./assets/carte2.webp" id="carte2_img">
+	</section>
+	
+	<section id="s3" class="dn">
+      	<img src="./assets/legende3.webp" id="legende3_img">
+		<img src="./assets/carte3.webp" id="carte3_img">
+	</section>
+	
+	<section id="s4" class="dn">
+     	<img src="./assets/legende4.webp" id="legende4_img">
+		<img src="./assets/carte4.webp" id="carte4_img">
+	</section>
+
+	<button onclick="window.location.href = './carte.html';" id="btnfinal" class="dn"> Suite </button>
+
+
+	<div id="foglayer_01" class="fog">
+		<div class="image01"></div>
+		<div class="image02"></div>
+	</div>
+
+	<div id="foglayer_02" class="fog">
+		<div class="image01"></div>
+		<div class="image02"></div>
+	</div>
+
+	<script src="app.js"></script>
+
+</body>
+</html>

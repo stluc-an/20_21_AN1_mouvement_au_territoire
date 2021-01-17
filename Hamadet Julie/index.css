@@ -1,0 +1,88 @@
+@import './assets/font/TravelingTypewriter.css';
+
+
+body {
+	width: auto;
+	height: auto;
+    background-color: black;
+    font-family: "TravelingTypewriter";
+    font-size: 100%;
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+}
+	
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+h1 {
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+	text-shadow: 3px 3px 1px #808080;
+}
+
+.centrer {
+	font-size: 1.3em;
+	font-weight: 100;
+	width: 80vw;
+	margin: auto;
+}
+
+h3 {
+	position:absolute;
+	left: 40vw;
+	top: calc(50vh + 200px);	
+}
+
+a {
+	color: #990000;
+}
+
+#start_link:hover {
+  -webkit-animation: shake 1s linear;
+  -moz-animation: shake 1s linear;
+  animation: shake 1s linear;
+}
+
+/* ----------- Shake --------- */
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}

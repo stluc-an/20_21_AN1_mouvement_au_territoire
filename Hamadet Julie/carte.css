@@ -1,0 +1,95 @@
+@import './assets/font/TravelingTypewriter.css';
+
+body {
+	width: auto;
+	height: auto;
+    background-color: black;
+    font-family: "TravelingTypewriter";
+    font-size: 100%;
+	color: white;
+	text-align: center;
+	margin-left: 1vw;
+	margin-right: 1vw; 	
+}
+
+h1 {
+ margin-bottom: 10vh;
+}
+
+#carte_img {
+	box-shadow: 3px 3px 5px #566764;
+	height: 450px;
+	width: auto;
+}
+
+.column {
+ 	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	line-height: 1.7em;
+ }
+
+.high {
+	height: 250px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+#dest1 {
+	height: 250px;
+	transition-delay: 1s;
+}
+
+#dest2 {
+	transition-delay: 2s;
+	height: 250px;
+}
+
+#dest3 {
+	transition-delay: 3s;
+}
+
+#dest4 {
+	transition-delay: 4s;
+}
+
+#btnbillet {
+	height: 50px;
+	width: auto;
+	animation: fadein 8s;
+    -webkit-animation: fadein 8s;
+}
+
+#credits {
+	font-size: 0.7em;
+}
+
+a {
+	color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

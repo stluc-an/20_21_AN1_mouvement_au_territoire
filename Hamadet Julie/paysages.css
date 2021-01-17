@@ -1,0 +1,47 @@
+@import './assets/font/TravelingTypewriter.css';
+
+
+body {
+	width: auto;
+	height: auto;
+    background-color: black;
+	margin-top: 5vh;
+    font-family: "TravelingTypewriter";
+    font-size: 100%;
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	animation: fadein 10s;
+    -webkit-animation: fadein 10s;
+}
+
+.paysage {
+	height: 95vh;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+

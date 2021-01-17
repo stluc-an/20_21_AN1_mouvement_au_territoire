@@ -1,0 +1,480 @@
+@font-face 
+{
+font-family: "WigendaTypewrite";
+src: url("assets/font/WigendaTypewrite.ttf");
+}
+
+
+body {
+	background: black;
+	overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.text {
+	color: white;
+	font-size: 3.5em;
+	margin: 0;
+	position: absolute;
+	top: calc(50vh + 175px);
+	left: 6500px;
+	z-index: 10;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+	cursor: none;
+}
+
+.dn {
+	display: none !important;
+}
+
+.blackandwhite {
+	-webkit-filter: grayscale(80%) blur(4px); /* Safari 6.0 - 9.0 */
+	filter: grayscale(80%) blur(4px);
+}
+
+#home {
+	transition: filter 4.2s ease;
+}
+
+#player {
+	display: none;
+}
+
+#background_img {
+	position: absolute;
+	width: 6633px;
+	height: 486px;
+	left: 0;
+	top: calc(50vh - 243px);
+	z-index: -10;	
+}
+
+#mont3_img {
+	position: absolute;
+	width: 197px;
+	height: auto;
+	left: 2255px;
+	top: calc(50vh - 150px);
+	z-index: 1;
+}
+
+#mont3_img:hover {
+	animation: shake 3s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+#mont2_img {
+	position: absolute;
+	width: 467px;
+	height: auto;
+	left: 2108px;
+	top: calc(50vh - 107px);
+	z-index: 1;
+}
+
+#mont2_img:hover {
+	animation: shake 2s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+#lune_img {
+	position: absolute;
+	width: 323px;
+	height: auto;
+	left: 5400px;
+	top: calc(50vh - 155px);
+	z-index: 1;
+}
+
+#lune_img:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+#kappa_img {
+	position: absolute;
+	width: 237px;
+	height: auto;
+	left: 3890px;
+	top: calc(50vh + 50px);
+	z-index: 1;
+	opacity: 0.7;
+}
+
+#kappa_img:hover {
+	animation: shake 0.52s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+#poissons_img {
+	position: absolute;
+	width: 6633px;
+	height: 486px;
+	left: 0;
+	top: calc(50vh - 243px);
+	z-index: -10;
+	opacity: 90%;
+}
+
+#poisson1_img {
+	position: absolute;
+	width: auto;
+	height: 300px;
+	left: 6200px;
+	top: calc(50vh - 190px);
+	z-index: 1;
+}
+
+#poisson2_img {
+	position: absolute;
+	height: 430px;
+	left: 4380px;
+	top: calc(50vh - 195px);
+	z-index: -10;
+}
+
+#poisson3_img {
+	position: absolute;
+	width: auto;
+	height: 280px;
+	left: 1425px;
+	top: calc(50vh - 233px);
+	z-index: 1;
+}
+
+#poisson3bis_img {
+	position: absolute;
+	width: auto;
+	height: 215px;
+	left: 1465px;
+	top: calc(50vh - 240px);
+	z-index: 1;
+}
+
+#poisson4_img {
+	position: absolute;
+	width: auto;
+	height: 380px;
+	left: 80px;
+	top: calc(50vh - 243px);
+	z-index: -10;
+	-webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    }
+
+
+
+#ecritures_img {
+	position: absolute;
+	width: 6633px;
+	height: 486px;
+	left: 0;
+	top: calc(50vh - 243px);
+	z-index: 0;
+}
+
+#motlune_img {
+	position: absolute;
+	width: 68px;
+	height: 40px;
+	left: 5515px;
+	top: calc(50vh + 10px);
+	z-index: 10;
+}
+
+#motlune_img:hover {
+	cursor: grab;
+}
+
+#motsommeil_img {
+	position: absolute;
+	width: 120px;
+	left: 3980px;
+	top: calc(50vh - 220px);
+	z-index: 10;
+}
+
+#motsommeil_img:hover {
+	cursor: grab;
+}
+
+#motbulle_img {
+	position: absolute;
+	width: 67px;
+	height: 49px;
+	left: 1775px;
+	top: calc(50vh + 50px);
+	z-index: 10;
+}
+
+#motbulle_img:hover {
+	cursor: grab;
+}
+
+#motfleur_img {
+	position: absolute;
+	width: 54px;
+	left: 795px;
+	top: calc(50vh - 30px);
+	z-index: 10;
+}
+
+#motfleur_img:hover {
+	cursor: grab;
+}
+
+#legende1_img {
+	position: absolute;
+	width: 1000px;
+	height: 60px;
+	left: 5100px;
+	z-index: 10;
+	top: calc(50vh - 310px);
+}
+
+#legende2_img {
+	position: absolute;
+	width: 1000px;
+	height: auto;
+	left: 3500px;
+	z-index: 10;
+	top: calc(50vh - 310px);
+}
+
+#legende3_img {
+	position: absolute;
+	height: 60px;
+	left: 1600px;
+	z-index: 10;
+	top: calc(50vh - 310px);
+}
+
+#legende4_img {
+	position: absolute;
+	height: 60px;
+	left: 300px;
+	z-index: 10;
+	top: calc(50vh - 310px);
+}
+
+#carte1_img {
+	position: absolute;
+	height: 250px;
+	width: auto;
+	left:5600px;
+	z-index: 10;
+	top: calc(50vh - 125px);
+	 transform: rotate(-20deg);
+	}
+
+#carte2_img {
+	position: absolute;
+	height: 250px;
+	width: auto;
+	left:3700px;
+	z-index: 10;
+	top: calc(50vh - 190px);
+	 transform: rotate(10deg);
+	}
+
+#carte3_img {
+	position: absolute;
+	height: 250px;
+	width: auto;
+	left:1800px;
+	z-index: 10;
+	top: calc(50vh - 100px);
+	 transform: rotate(-25deg);
+	}
+
+#carte4_img {
+	position: absolute;
+	height: 250px;
+	width: auto;
+	left:595px;
+	z-index: 10;
+	top: calc(50vh - 40px);
+	 transform: rotate(15deg);
+	}
+
+	#btnfinal {
+	position: fixed;
+	left: 50vw;
+	z-index: 10000;
+	top: calc(50vh + 260px);
+	display: block;
+	background-color: #FFFF99;
+	border-radius: 10px;
+	border: 2px solid #990000;
+	font-family:"WigendaTypewrite";
+	font-weight: 1000;
+	color: #990000;
+	font-size: 25px;
+	text-align: center;
+	padding: 0px 25px 15px 25px;
+	vertical-align: center;
+	cursor: pointer;
+	}
+
+
+/* ----------- Shake --------- */
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+/* ----------- Breathing --------- */
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+/* ---------- Fog ---------- */
+#foglayer_01, #foglayer_02, #foglayer_03 {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -5;
+}
+#foglayer_01 .image01, #foglayer_01 .image02,
+#foglayer_02 .image01, #foglayer_02 .image02,
+#foglayer_03 .image01, #foglayer_03 .image02 {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+#foglayer_01 {
+  -webkit-animation: foglayer_01_opacity 21s linear infinite, foglayer_moveme 35s linear infinite;
+  -moz-animation: foglayer_01_opacity 21s linear infinite, foglayer_moveme 35s linear infinite;
+  animation: foglayer_01_opacity 21s linear infinite, foglayer_moveme 35s linear infinite;
+}
+
+/* ---------- Moving Fog ---------- */
+/*
+  'size: cover' || 'size: 100%'; results remain the same
+  'attachment: scroll' can be added or removed; results remain the same
+  'attachment: fixed' causing unexpected results in Chrome
+  'repeat-x' || 'no-repeat'; results remain the same
+*/ 
+#foglayer_01 .image01, #foglayer_01 .image02 {
+  background: url('./assets/fog3.png') center center/cover no-repeat transparent;
+}
+
+/* ---------- Keyframe Layer 1 ---------- */
+@-webkit-keyframes foglayer_01_opacity {
+  0% { opacity: .1; }
+  22% { opacity: .5; }
+  40% { opacity: .28; }
+  58% { opacity: .4; }
+  80% { opacity: .16; }
+  100% { opacity: .1; }
+}
+@-moz-keyframes foglayer_01_opacity {
+  0% { opacity: .1; }
+  22% { opacity: .5; }
+  40% { opacity: .28; }
+  58% { opacity: .4; }
+  80% { opacity: .16; }
+  100% { opacity: .1; }
+}
+@-o-keyframes foglayer_01_opacity {
+  0% { opacity: .1; }
+  22% { opacity: .5; }
+  40% { opacity: .28; }
+  58% { opacity: .4; }
+  80% { opacity: .16; }
+  100% { opacity: .1; }
+}
+@keyframes foglayer_01_opacity {
+  0% { opacity: .1; }
+  22% { opacity: .5; }
+  40% { opacity: .28; }
+  58% { opacity: .4; }
+  80% { opacity: .16; }
+  100% { opacity: .1; }
+}
+
+/* ---------- Keyframe moveMe ---------- */
+
+@-webkit-keyframes foglayer_moveme {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+@-moz-keyframes foglayer_moveme {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+@-o-keyframes foglayer_moveme {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+@keyframes foglayer_moveme {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+
+@media only screen
+  and (min-width: 280px)
+  and (max-width: 767px) {
+    #foglayer_01 .image01, #foglayer_01 .image02,
+    #foglayer_02 .image01, #foglayer_02 .image02,
+    #foglayer_03 .image01, #foglayer_03 .image02 {
+      width: 100%;
+    }
+  }
