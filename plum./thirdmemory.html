@@ -1,0 +1,39 @@
+<html>
+<head>
+    
+    
+    
+    
+    
+    
+    
+    
+</head>
+
+<body>
+    
+    <a id="backBtn" href="touslesos.html">
+        <img src= "imagesos/maison.png">
+    </a>
+    
+    <a> <img src="souvenirsgif/Milosouvenir3.gif"></a>
+    
+<script>
+        let member = "brasG";
+        let params = location.search;
+        if(params == ""){
+            params = "?members=[]";
+        }
+        params = params.replace("]", member+",]")
+        let a = document.querySelector("#backBtn");
+        a.href = a.href + params;
+        
+</script>
+    
+</body>
+
+
+
+
+
+</html>

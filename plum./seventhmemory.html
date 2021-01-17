@@ -1,0 +1,46 @@
+<html>
+<head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </head>
+
+<body>
+    
+    <a id="backBtn" href="touslesos.html">
+        <img src= "imagesos/maison.png">
+    </a>
+    
+<script>
+        let member = "jambeD";
+        let params = location.search;
+        if(params == ""){
+            params = "?members=[]";
+        }
+        params = params.replace("]", member+",]")
+        let a = document.querySelector("#backBtn");
+        a.href = a.href + params;
+        
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+
+
+
+
+
+</html>

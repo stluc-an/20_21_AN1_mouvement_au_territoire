@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+
+    
+    
+    <audio controls src="musiques/VOXLaff_Garcon%202%203%20ans%20chatouilles%202%20(ID%201419)_LS.mp3"></audio>
+    
+    
+    
+    </head>
+
+
+<body>
+    
+    
+       
+     <a id="backBtn" href="touslesos.html">
+        <img src= "imagesos/maison.png">
+    </a>
+    
+
+<a> <img src="souvenirsgif/Milosouvenir1.gif">
+</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script>
+        let member = "crane";
+        let params = location.search;
+        if(params == ""){
+            params = "?members=[]";
+        }
+        params = params.replace("]", member+",]")
+        let a = document.querySelector("#backBtn");
+        a.href = a.href + params;
+        
+</script>
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+</html>
