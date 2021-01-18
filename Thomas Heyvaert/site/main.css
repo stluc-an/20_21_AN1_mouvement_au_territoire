@@ -1,0 +1,92 @@
+.plafond {
+    
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    
+}
+
+.compo {
+    
+    position: absolute;
+    top: 55vh;
+    left: 85vh;
+  
+    
+}
+
+.compos {
+    
+    position: absolute;
+    top: 109vh;
+    left: 23vh;
+    
+}
+
+
+    
+
+
+iframe {
+    border: 0px;
+    width: 13%;
+    height: 45%;
+    position: absolute;
+    top: 55vh;
+    left: 85vh;
+    
+}
+
+
+.output {
+    background: #eee;
+}
+
+h1{
+    
+    font-family: cursive;
+    font-size: 1vw;
+    top: 50vh;
+    left: 90vh;
+    position: absolute;
+    color: aliceblue;
+    
+    
+}
+
+h2{
+    
+     font-family: cursive;
+    font-size: 1vw;
+    top: 130vh;
+    left: 155vh;
+    position: absolute;
+    color: aliceblue;
+    width: 7vw;
+    
+}
+
+h3{
+    
+    font-family: cursive;
+    font-size: 1vw;
+    top: 158vh;
+    left: 155vh;
+    position: absolute;
+    width: 10vw;
+    
+}
+
+h4 {
+    
+    position: absolute;
+    top: 60vh;
+    left: 90vh;
+}
+
+.ps{
+    
+    position: absolute;
+    top: 113vh;
+    left: 139vh;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite
+}
+
+audio {
+    position: absolute;
+    top: auto;
+    left: 500px;
+    }
+
+#girl {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+        }
+
+
+#backBtn {
+    position: absolute;
+    top: auto;
+}

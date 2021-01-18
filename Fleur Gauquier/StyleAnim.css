@@ -1,0 +1,30 @@
+body{
+background-color: black;
+}
+
+p img{  width: 300px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;}
+#image{ 
+    margin: 0 auto;
+    text-align: center; 
+}
+#button{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center; 
+    color: red;
+    display : block;
+}
+#finalAim{
+    font-size: 25px;
+    font-family: 'Advent Pro', sans-serif;
+    color:white;
+    margin: 0 auto;
+    text-align: center; 
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}

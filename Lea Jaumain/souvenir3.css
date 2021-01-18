@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite
+}
+
+audio {
+    position: absolute;
+    top: auto;
+    left: 500px;
+    }
+
+#chien {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+
+#backBtn {
+    position: absolute;
+    top: auto;
+}

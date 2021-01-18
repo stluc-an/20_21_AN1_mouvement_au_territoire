@@ -1,0 +1,10 @@
+body {
+    background-image:url(Images/Triste.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:black;
+    position:fixed;
+    
+   
+}

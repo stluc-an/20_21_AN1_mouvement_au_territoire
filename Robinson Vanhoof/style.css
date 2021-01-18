@@ -1,0 +1,97 @@
+body {
+	margin: 0px; padding: 0px; width: 100vw; overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+.pic {width: 100vw; position: absolute;}
+
+
+/*plan 1*/
+#accueil {height: 100vh; top: 0px; left: 0px;}
+#bordAccueil {height: 100vh; top: 0px; left: 0px; z-index: 2;}
+
+.acc {position: absolute;}
+
+
+/*plan sober*/
+#sober {top: 102vh; left: 0px;}
+
+/*plan 3*/
+#mer1 {top: calc(104vh + ((100vw / 16) * 9));}
+#mer2 {top: calc(106vh + (2 * ((100vw / 16) * 9)));}
+
+/*plan 4*/
+#forge {top: calc(108vh + (3 * ((100vw / 16) * 9)));}
+
+/*plan 5*/
+#moon {top: calc(110vh + (4 * ((100vw / 16) * 9)));}
+
+
+/*bordures*/
+.bordure {position: absolute; width: 100vw; height: 10vh ; left: 0vw; z-index: 3;}
+#bord1 {top: 96vh;}
+#bord2 {top: calc(98vh + ((100vw / 16) * 9));}
+#bord3 {top: calc(100vh + (2 * ((100vw / 16) * 9)));}
+#bord4 {top: calc(102vh + (3 * ((100vw / 16) * 9)));}
+#bord5 {top: calc(104vh + (4 * ((100vw / 16) * 9)));}
+#bord6 {top: calc(106vh + (5 * ((100vw / 16) * 9))); height: 6vh;}
+
+
+/*liens*/
+#home {position: fixed; height: 12vh; width: 7vw; bottom: 0px; left: 0px; z-index: 3;}
+#homeIMG {height: 100%; width: 100%;}
+
+#infos {position: absolute; height: 9vh; width: 5vw; top: 0px; left: 0px; z-index: 3;}
+#infosP {position: absolute; top: 8vh; left: 10vw; z-index: 4; background-color: white; opacity: 0; border-radius: 20px; transition: 0.2s; padding-right: 10px; padding-left: 10px; margin-right: 10vw; text-align: center;}
+#infos:hover + #infosP {opacity: 1;}
+
+.AccLinks {z-index: 2; position: absolute; border-radius: 100vh; border: 0px solid white; transition: 0.3s;}
+#merLink {height: 17vh; width: 17vh; left: 40vh; top: 58vh;}
+#forgeLink {height: 10vh; width: 28vh; left: 64.5vh; top: 83vh;}
+#moonLink {height: 17vh; width: 17vh; right: 42.5vh; top: 57vh;}
+
+#merLink:hover {border: 0.8vh solid blue; left: 38.5vh; top: 57vh;}
+#forgeLink:hover {border: 0.8vh solid black; left: 63vh; top: 82vh;}
+#moonLink:hover {border: 0.8vh solid red; right: 41.5vh; top: 56vh;}
+
+
+#arrow {position: absolute; top: calc(102vh + 10vw + (1 * ((100vw / 16) * 9))); left: 85vw;height: 10vw;}
+#arrowIMG {height: 100%;}
+#arrow:hover {top: calc(102vh + 9vw + (1 * ((100vw / 16) * 9))); left: 84vw; height: 12vw;}
+
+#arrow2 {position: absolute; top: calc(310vh + 10vw + (1 * ((100vw / 16) * 9))); left: 7vw;height: 10vw;}
+#arrowIMG {height: 100%;}
+#arrow2:hover {top: calc(310vh + 9vw + (1 * ((100vw / 16) * 9))); left: 6vw; height: 12vw;}
+
+
+.question { height: 5.5vw; position: absolute; z-index: 2;}
+.info {height: 35vh; width: 50vh; position: absolute; z-index: 3; overflow: hidden; transition: 0.3s; background-color: white; border-radius: 20px; opacity: 0;}
+.p {height: 25vh; width: 40vh; top: 5vh; left: 5vh; position: relative; text-align: center;}
+p {color:black; font-family: Verdana; font-size: 1em;}
+
+#questAccueil {left: 74vw; top: 71vh;}
+#questAccueil2 {left: 18vw; top: 71vh;}
+#infoAccueil {left: 35vw; top: 30vh;}
+
+#questAccueil:hover + #infoAccueil {opacity: 1;}
+
+#questCratere {left: 80vw; top: 115vh;}
+#infoCratere {left: 8vw; top: 115vh;}
+#questCratere:hover + #infoCratere {opacity: 1;}
+
+#questMer1 {left: 47vw; top: calc(88vh + 25vw + (1 * ((100vw / 16) * 9)));}
+#infoMer1 {left: 60vw; top: calc(102vh + 20vw + (1 * ((100vw / 16) * 9)));}
+#questMer1:hover + #infoMer1 {opacity: 1;}
+
+#questMer2 {left: 69vw; top: calc(92vh + 25vw + (2 * ((100vw / 16) * 9)));}
+#infoMer2 {left: 65vw; top: calc(104vh + 20vw + (2 * ((100vw / 16) * 9)));}
+#questMer2:hover + #infoMer2 {opacity: 1;}
+
+#questForge {left: 43.5vw; top: calc(102vh + 20vw + (3 * ((100vw / 16) * 9)));}
+#infoForge {left: 4vw; top: calc(106vh + 26vw + (3 * ((100vw / 16) * 9)));}
+#questForge:hover + #infoForge {opacity: 1;}
+
+#questMoon {left: 72vw; top: calc(106vh + 20vw + (4 * ((100vw / 16) * 9)));}
+#infoMoon {left: 4vw; top: calc(106vh + 26vw + (4 * ((100vw / 16) * 9)));}
+#questMoon:hover + #infoMoon {opacity: 1;}

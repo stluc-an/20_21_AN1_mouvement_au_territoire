@@ -1,0 +1,22 @@
+body {
+  background-image: url('gif/intro.gif');
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  position: fixed;
+}
+
+
+
+.button {
+  
+  background-color:inherit;
+  border: none;
+  width: 350px;
+  display:block;
+  margin: 420px ;
+  margin-top: 420px;
+  cursor: pointer;
+
+
+}
+

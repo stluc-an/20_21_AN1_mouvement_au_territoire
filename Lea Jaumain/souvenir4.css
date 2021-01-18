@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite
+}
+
+audio {
+    position: absolute;
+    top: auto;
+    left: 500px;
+}
+
+#lettre {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+#backBtn {
+    position: absolute;
+    top: auto;
+}

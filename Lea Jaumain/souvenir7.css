@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite
+}
+
+audio {
+    position: absolute;
+    top: auto;
+    left: 500px;
+}
+
+#hopital {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+
+#backBtn {
+    position: absolute;
+    top: auto;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="StyleTerritoire.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
+<title> Territoire </title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  
+  <script src="./p5.min.js"></script>
+  <script src="formulaire.js"></script>
+   
+</head>
+<body>
+        <div id=question>
+            <text for="question" id="Qst">  </text> 
+            
+        </div>
+    <div id=txtarea>
+    <input type="text" id="answertxt" name="answertxt">
+    </div>
+        <div class="go" id=btn>
+            <button id="go">Voir le résultat</button>
+        </div>
+        
+ 
+ <p id=image> <img src="bonhomme.gif"> </p>
+    
+ <script> 
+            go.onclick = function(){  
+            let params = new URLSearchParams();
+            params.set('answertxt',answertxt.value);
+            window.location.replace("index.html?" + params.toString());
+        }
+            let questions = ['How do you manage your thoughts ?', 'Can you describe your sensitivity ?', 'How do you manage your emotions ?', 'Are you ok with loneliness ?', 'Do you prefer being alone or surrounded?', 'Are you dreamer or down to earth ?', 'Have you ever done a lucid dream ? Describe it.', 'Have you ever try hypnosis ?', 'Do you fall asleep easily ?'];
+             let random = Math.floor(Math.random() * questions.length);
+            document.getElementById("Qst").innerHTML = questions[random];
+    
+    </script>
+    
+</body>
+
+</html>

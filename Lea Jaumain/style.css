@@ -1,0 +1,218 @@
+body {
+    background-color: rosybrown;
+    }
+
+#crane:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#cage:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#brasG:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#brasD:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#bassin:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#jambeG:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+
+#jambeD:hover{
+     animation-duration: 1s;
+  animation-name: slidein;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+   transform: translate(0, 0);
+  }
+
+  to {
+
+   transform: translate(10px, 10px);
+    }
+}
+
+    
+h1      {
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration:overline underline
+    
+        }
+
+#crane {
+    position : absolute;
+    top : 100px;
+    left : 122px;
+        }
+#cage {
+    position : absolute;
+    top : 200px;
+    left : 700px;
+      }
+
+#brasG {
+    position : absolute;
+    top : 600px;
+    left : 500px;
+        }
+
+#brasD {
+    position : absolute;
+    top : 600px;
+    left : 100px;
+        }
+
+#bassin {
+    position : absolute;
+    top : 500px;
+    left : 1000px;
+        }
+
+#jambeD {
+    position : absolute;
+    top : 1000px;
+    left : 400px;
+        }
+
+#jambeG {
+    position : absolute;
+    top : 1500px;
+    left : 600px;
+        }
+
+p {
+    position: absolute;
+    top: 1700
+    }
+
+#fin  {
+ text-decoration: none;
+ color: black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

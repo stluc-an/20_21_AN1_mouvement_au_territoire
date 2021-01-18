@@ -1,0 +1,23 @@
+body {
+    background-color: skyblue
+}
+
+audio {
+    position: absolute;
+    top: auto;
+    left: 800px;
+}
+
+#famille {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+#milo {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+

@@ -1,0 +1,13 @@
+body {
+    background-image:url(Images/Nage.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: fixed;
+
+    
+   
+}
+
+h1{ color:white;}
