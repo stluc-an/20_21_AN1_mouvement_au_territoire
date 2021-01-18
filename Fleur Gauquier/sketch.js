@@ -23,12 +23,12 @@ let xeVI = 1500;
 let e = 1300;
 
 function preload() {
-    imgEn1 = loadImage('ennemi1.PNG');
-    imgEn2 = loadImage('ennemi2.PNG');
-    imgEn3 = loadImage('ennemi3.PNG');
-    imgEn4 = loadImage('ennemi4.PNG');
-    imgEn5 = loadImage('ennemi5.PNG');
-    imgEn6 = loadImage('ennemi6.PNG');
+    imgEn1 = loadImage('ennemi1.png');
+    imgEn2 = loadImage('ennemi2.png');
+    imgEn3 = loadImage('ennemi3.png');
+    imgEn4 = loadImage('ennemi4.png');
+    imgEn5 = loadImage('ennemi5.png');
+    imgEn6 = loadImage('ennemi6.png');
     
 } 
 
