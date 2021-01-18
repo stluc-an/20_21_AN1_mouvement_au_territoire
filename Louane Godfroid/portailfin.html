@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>p5.js example</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<div id="portailfin">
+<div class="game">
+	
+	<div id="coeur"></div>
+	<div id="red"></div>
+</div>
+
+</div>
+<a id="ok2" href="fin.html">FIN</a>
+<p id="consigne"> Utilise la barre espace pour faire sauter le personnage<br>si tu arrive à passer les 10 rochers, appuye sur fin !</p>
+
+
+
+</body>
+
+<style type="text/css">
+	
+
+#consigne{
+	position: absolute;
+	bottom:50px;
+	right:500px;
+	color: grey;
+	font-family: 'Amatic SC', cursive;
+	font-size: 15pt;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+#ok2 {
+	position: absolute;
+	bottom:50px;
+	right:50px;
+	color: grey;
+		font-family: 'Amatic SC', cursive;
+	font-size: 25pt;
+	letter-spacing: 0.1em;
+}
+
+#ok2:hover {
+	cursor: pointer;
+}
+
+</style>
+
+<script type="text/javascript">
+	
+const perso = document.getElementById("coeur");
+const obstacle = document.getElementById("red");
+
+function jump(){
+	if(perso.classList != "jump"){
+	perso.classList.add("jump");
+
+	setTimeout(function (){
+		perso.classList.remove("jump");}, 300);
+	}
+}
+
+
+let isAlive = setInterval(function (){
+	// get current perso Y position
+let persoTop = parseInt(window.getComputedStyle(perso).getPropertyValue("top"));
+
+// get current perso X position
+let obstacleleft = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
+//console.log(obstacleleft);
+
+// detect collision
+if(obstacleleft <50 && obstacleleft > 0 && persoTop >=140){
+	//collision
+	alert("Game Over!");
+}
+
+
+},10);
+
+
+document.addEventListener("keydown",function (event){jump();
+});  
+</script>
+
+
+
+</html>

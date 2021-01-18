@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="style.css" rel="stylesheet"/>
+	<title>p5.js example</title>
+	<style>
+		body {
+			padding:0;
+			margin:0;
+		}
+	</style>
+	<script src="../lib/p5/p5.js"></script>
+	<script src="../lib/p5/addons/p5.sound.min.js"></script>
+	<script src="sketch.js"></script>
+</head>
+
+<body>
+
+	<div id="fin"></div>
+	<p id="lafin"> Désolé, tu es arrivé trop tard, le portail se referme déjà.<br>On dirait qu'il ne reste plus qu'à trouver un travail ici...</p>
+	<a id="recommencer" href="index.html">rejouer</a>
+
+
+
+	 <!--<a id="bt1" href="index.html">index</a> 
+	 <a id="bt2" href="page2.html">page2</a> -->
+
+	<main>
+	</main>
+</body>
+
+<style>
+
+	#recommencer {
+	position: absolute;
+	bottom:50px;
+	right:50px;
+	color: grey;
+		font-family: 'Amatic SC', cursive;
+	font-size: 25pt;
+	letter-spacing: 0.1em;
+}
+
+#recommencer:hover {
+	cursor: pointer;
+	color:red;
+}
+
+	#lafin{
+	position: absolute;
+	bottom:300px;
+	right:200px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 15pt;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+	#fin{
+		position: absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		background:url(img/fin.gif);
+		background-size: cover;
+	}
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = " Désolé, tu es arrivé trop tard, le portail se referme déjà.<br>On dirait qu'il ne reste plus qu'à trouver un travail ici...";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("lafin").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+</script>
+
+
+
+</html>

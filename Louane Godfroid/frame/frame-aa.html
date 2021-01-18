@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <div id="perso2"></div>
+  <div id="rectangle1"></div>
+  
+  <body id="page-a">
+    <p id="bloc">
+      HO ! pardon je t'ennuie avec mes histoires alors que tu viens tout juste d'arriver. venons en au fait. tu te trouves actuellement dans les lymbes. Tu ne peux rester ici que 5 jours ! sinon tu restera coincé ici, comment dire... pour toujours.
+    </p>
+
+<p>
+     
+<a id="next" href="../frame/frame-aaa.html"></a>
+<a id="previous" href="../frame/frame-a.html"></a>
+
+   </p>
+  
+    
+  </body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#rectangle1{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+
+ #bloc{
+    position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:5px;
+  font-family: 'Fraunces', serif;
+  font-size: 15pt;   }
+
+ #next {
+  position: absolute;
+  bottom:95px;
+  right:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-6.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+        #previous {
+   position: absolute;
+  bottom:95px;
+  left:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-7.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+#perso2 {
+  position: absolute;
+  bottom:-10px;
+  right:238px;
+  width:390px;
+  height:650px;
+  background: url(../img/perso4.webp);
+  background-size: cover;
+  opacity: 1
+}
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = " HO ! pardon je t'ennuie avec mes histoires alors que tu viens tout juste d'arriver. venons en au fait. tu te trouves actuellement dans les lymbes. Tu ne peux rester ici que 5 jours ! sinon tu restera coincé ici, comment dire... pour toujours.";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+
+</script>
+
+
+</html>

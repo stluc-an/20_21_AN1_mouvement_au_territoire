@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    
+     <body> 
+
+  <div id="perso1"></div>
+  <div id="rectangle"></div>
+
+  <div id="page-a">
+
+ 
+    <p id="bloc">
+      Hey ! Bonjour jeune âme. Je me présente, je suis le nouveau guide de ses lieux. Je dirige les nouvelles âmes telles que toi vers l'endroit qu'elles souhaitent. On m'a embauché il y a peu de temps mais le job me plait ! C'est vrai qu'il y a beaucoup à faire mais...
+    </p>
+
+<p>
+     
+<a id="next" href="../frame/frame-aa.html"></a>
+
+   </p>
+
+  </body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#perso1 {
+  position: absolute;
+  bottom:-10px;
+  right:200px;
+  width:450px;
+  height:650px;
+  background: url(../img/perso1.webp);
+  background-size: cover;
+  opacity: 1
+}
+
+#rectangle{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+
+ #bloc{
+  position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:5px;
+  font-family: 'Fraunces', serif;
+  font-size: 15pt;
+   }
+
+ #next {
+  position: absolute;
+  bottom:95px;
+  right:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-6.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = " Hey ! Bonjour jeune âme. Je me présente, je suis le nouveau guide de ses lieux. Je dirige les nouvelles âmes telles que toi vers l'endroit qu'elles souhaitent. On m'a embauché il y a peu de temps mais le job me plait ! C'est vrai qu'il y a beaucoup à faire mais...";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+
+</script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

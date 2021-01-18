@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap');
+/*font-family: 'Allura', cursive;
+font-family: 'Nothing You Could Do', cursive;*/
+
+
+#pageintro {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(img/intro.webp);
+	background-size:cover;
+	z-index: -999999;
+	opacity: 1
+}
+
+#play{
+	position: absolute;
+	bottom:50px;
+	right:50px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25pt;
+	letter-spacing: 0.1em;
+
+}
+
+#page1 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(img/bureau.webp);
+	background-size:cover;
+	z-index: -999999;
+	opacity: 1
+}
+
+
+
+#next:hover {
+	cursor: pointer;
+}
+
+
+
+#page2 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: red;
+	z-index: -999999;
+}
+
+#page2bis {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: #f18973;
+	z-index: -999999;
+}
+
+#page3 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(lymbis/parc.webp);
+	background-size:cover;
+	z-index: -99999999999;
+	opacity: 1
+}
+
+#page3bis {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:#ddeedd;
+	z-index: -999999;
+}
+
+#page4 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: orange;
+	z-index: -999999;
+}
+
+#page5 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: purple;
+	z-index: -999999;
+}
+
+#page6 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: midnightblue;
+	z-index: -999999;
+}
+
+#page6bis {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:#4040a1;
+	z-index: -999999;
+}
+
+#page7 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: turquoise;
+	z-index: -999999;
+}
+
+#page7bis {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(laby/1.webp);
+	background-size:cover;
+	z-index: -999999;
+	opacity: 1
+}
+
+#portailfin {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(img/fond.webp)
+	z-index: -999999;
+}
+
+#fin {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:#86af49;
+	z-index: -999999;
+}
+
+#bt1 {
+	position: absolute;
+	bottom:10%;
+	left:45%;
+	color:black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 15pt;
+	letter-spacing: 0.1em;
+}
+
+
+#bt2 {
+	position: absolute;
+	bottom:10%;
+	left:55%;
+	color:black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 15pt;
+	letter-spacing: 0.1em;
+}
+
+#frame-a{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(img/bureau.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0;
+  left:0;
+  z-index: -77777
+}
+
+#frame-b{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(lymbis/parc.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0
+  left:0;
+  z-index: -77777
+}
+
+
+#frame-c{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(portail/foret.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0
+  left:0;
+  z-index: -77777
+}
+
+#frame-d{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(laby/laby.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0
+  left:0;
+  z-index: -77777
+}
+
+
+#frame-e{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(laby/laby.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0
+  left:0;
+  z-index: -77777
+}
+
+#frame-f{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(lymbis/parc.webp);
+  background-size: cover;
+  position: fixed;
+  bottom:0
+  left:0;
+  z-index: -77777
+}
+
+#contenant {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(img/4.webp);
+	background-size:cover;
+	z-index: -8888888888888888888;
+}
+#lumière {
+	position: absolute;
+	top:10px;
+	left:40px;
+	height:100%;
+	width:61%;
+	background:url(img/3.webp);
+	background-size:cover;
+	z-index: -9999999999999999999;
+	opacity: 0;
+}
+
+#moniteuron{
+	position: absolute;
+	bottom: 0;
+	right:200px;
+	width:200px;
+	height:600px;
+	background:url(img/6.webp);
+	background-size:cover;
+	z-index: -77777777777777
+}
+
+
+#ok {
+ 	position: absolute;
+ 	bottom:50px;
+ 	left:80px;
+	width: 50px;
+	height:35px;
+	background:url(img/8.webp);
+	background-size:cover;
+	opacity: 0;
+
+
+}
+
+#ok:hover {
+	cursor: pointer;
+}
+
+
+#b1 {
+ 	position: absolute;
+ 	top: 70px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/5.webp);
+	background-size:cover;
+	opacity: 1;
+
+
+}
+
+#b1:hover {
+	cursor: pointer;
+}
+
+#bt1 {
+	position: absolute;
+ 	top: 70px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/1.webp);
+	background-size:cover;
+	opacity: 0;
+	z-index: -6
+}
+
+#b2 {
+ 	position: absolute;
+ 	top: 150px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/5.webp);
+	background-size:cover;
+	opacity: 1;
+
+
+}
+
+#b2:hover {
+	cursor: pointer;
+}
+
+#bt2 {
+	position: absolute;
+ 	top: 150px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/1.webp);
+	background-size:cover;
+	opacity: 0;
+	z-index: -6
+}
+
+#b3 {
+ 	position: absolute;
+ 	top: 230px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/5.webp);
+	background-size:cover;
+	opacity: 1;
+
+
+}
+
+#b3:hover {
+	cursor: pointer;
+}
+
+#bt3 {
+	position: absolute;
+ 	top: 230px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/1.webp);
+	background-size:cover;
+	opacity: 0;
+	z-index: -6
+}
+
+#b4 {
+ 	position: absolute;
+ 	top: 320px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/5.webp);
+	background-size:cover;
+	opacity: 1;
+
+
+}
+
+#b4:hover {
+	cursor: pointer;
+}
+
+#bt4 {
+	position: absolute;
+ 	top: 320px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/1.webp);
+	background-size:cover;
+	opacity: 0;
+	z-index: -6
+}
+
+
+#b5 {
+ 	position: absolute;
+ 	top: 400px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/5.webp);
+	background-size:cover;
+	opacity: 1;
+
+
+}
+
+#b5:hover {
+	cursor: pointer;
+}
+
+#bt5 {
+	position: absolute;
+ 	top: 410px;
+ 	left:45px;
+	width: 100px;
+	height:100px;
+	background:url(img/1.webp);
+	background-size:cover;
+	opacity: 0;
+	z-index: -6
+}
+
+
+
+.game{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border:1px solid black;
+	}
+
+#coeur {
+	width : 52px;
+	height: 50px;
+	background:url(img/perso.webp);
+	background-size: 50px 52px;
+	position:relative;
+	top:150px;
+}
+
+.jump {
+	animation: jump 0.3s linear infinite;
+
+}
+
+@keyframes jump {
+	0% {
+		top:150px;
+	}
+
+	30% {
+		top:130px;
+	}
+
+	50% {
+		top:80px;
+	}
+
+	80%{
+		top:130px;
+	}
+
+	100%{
+		top:150px;
+	}
+}
+
+#red {
+	width:40px;
+	height:20px;
+	position: relative;
+	top:130px;
+	left:1570px;
+	background:url(img/obstacle.webp);
+	background-size: cover;
+
+	animation : block 2s 10 linear; 
+}
+
+@keyframes block{
+	0%{
+		left:2080px;
+	}
+
+	100%{
+		left:-40px;
+	}
+}
+
+
+
+
+
+#great {
+	position: absolute;
+	bottom:50px;
+	left:270px;
+	font-family: 'Fraunces', serif;
+  	font-size: 15pt;
+  	opacity: 0;
+  	color:yellow;
+}
+
+
+#great2 {
+	position: absolute;
+	bottom:20px;
+	left:270px;
+	font-family: 'Fraunces', serif;
+  	font-size: 15pt;
+  	opacity: 0;
+  	color:yellow;
+}
+
+#pageentre {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+
+#entre {
+	position: absolute;
+	top:200px;
+	left:300px;
+	color: white;
+	font-family: 'Fraunces', serif;
+  	font-size: 20pt; 
+  	text-align: center
+}
+
+#parler {
+	position: absolute;
+	top:50%;
+	left:46%;
+	color: white;
+	font-family: 'Fraunces', serif;
+  	font-size: 15pt; 
+
+
+}
+
+#parler:hover {
+	cursor: pointer;
+	color:red;
+}
+
+
+#entre2 {
+	position: absolute;
+	top:100px;
+	left:350px;
+	color: white;
+	font-family: 'Fraunces', serif;
+  	font-size: 20pt; 
+  	text-align: center
+}
+
+#parler2 {
+	position: absolute;
+	top:45%;
+	left:45%;
+	color: white;
+	font-family: 'Fraunces', serif;
+  	font-size: 15pt; 
+
+
+}
+
+#parler2:hover {
+	cursor: pointer;
+	color:red;
+}
+
+#pageentre2 {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+
+
+
+
+
+
+
+
+

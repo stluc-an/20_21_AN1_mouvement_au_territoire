@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>Countdown Event</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+
+  <body>
+
+<div class='wrap' ng-app='app'>
+  <div class='time-to'>
+	<h3>DEBUT OF THE FOURTH PURGE!</h3>
+	all crime will be legal for one night of the year across
+	<br />
+	 America.
+	<br />
+	<br />
+	Until then prepare yourself.
+	<br />
+	The purge starts in
+	<br />
+	<br />
+	March 21, 2021- Sunday
+	<br />
+	From 7PM to 7AM
+	<span countdown='' date='March 21, 2021 24:00:00'></span>
+  </div>
+</div>
+
+    <script src='js/sketch.js'></script>  
+<script>
+      (function() {
+  var app;
+  app = angular.module('app', []);
+  app.directive('countdown', [
+    'Util', '$interval', function(Util, $interval) {
+      return {
+        restrict: 'A',
+        scope: {
+          date: '@'
+        },
+        link: function(scope, element) {
+          var future;
+          future = new Date(scope.date);
+          $interval(function() {
+            var diff;
+            diff = Math.floor((future.getTime() - new Date().getTime()) / 1000);
+            return element.text(Util.dhms(diff));
+          }, 1000);
+        }
+      };
+    }
+  ]);
+  app.factory('Util', [
+    function() {
+      return {
+        dhms: function(t) {
+          var days, hours, minutes, seconds;
+          days = Math.floor(t / 86400);
+          t -= days * 86400;
+          hours = Math.floor(t / 3600) % 24;
+          t -= hours * 3600;
+          minutes = Math.floor(t / 60) % 60;
+          t -= minutes * 60;
+          seconds = t % 60;
+          return [days + 'd', hours + 'h', minutes + 'm', seconds + 's'].join(' ');
+        }
+      };
+    }
+  ]);
+}).call(this);
+</script>
+ 
+
+
+    
+  </body>
+</html>
+ 

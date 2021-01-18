@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="style.css" rel="stylesheet"/>
+	<title>p5.js example</title>
+
+	<script src="../lib/p5/p5.js"></script>
+	<script src="../lib/p5/addons/p5.sound.min.js"></script>
+	<script src="sketch.js"></script>
+</head>
+
+<body>
+
+	<div id="contenant">
+		<div id="moniteuron">
+			<div id="b1"></div>
+			<div id="b2"></div>
+			<div id="b3"></div>
+			<div id="b4"></div>
+			<div id="b5"></div>
+
+			<div id="bt1"></div>
+			<div id="bt2"></div>
+			<div id="bt3"></div>
+			<div id="bt4"></div>
+			<div id="bt5"></div>
+			<div id="ok"></div>
+		</div>
+	</div>
+
+	<div id="lumière"></div>
+
+	<a id="great2" href="../visual novel/stevebis.html"> tu reussi a allumer la lumière !<br> va demander ton chemin au maitre d'attraction</a>
+	
+
+	<main>
+	</main>
+
+	<script type="text/javascript">
+		
+	document.getElementById("b1").addEventListener("click",myFunction1);
+
+	function myFunction1(){
+		b1.style.opacity = 0;
+		b3.style.opacity = 0;
+		bt1.style.opacity = 1;
+		bt3.style.opacity = 1;
+
+	}
+
+	document.getElementById("b2").addEventListener("click",myFunction2);
+
+	function myFunction2(){
+		b2.style.opacity = 0;
+		b3.style.opacity = 0;
+		bt2.style.opacity = 1;
+		bt3.style.opacity = 1;
+		
+	}
+
+
+	document.getElementById("b4").addEventListener("click",myFunction4);
+
+	function myFunction4(){
+		b1.style.opacity = 0;
+		b2.style.opacity = 0
+		b3.style.opacity = 0;
+		b4.style.opacity = 0;
+		b5.style.opacity = 0;
+		bt1.style.opacity = 1;
+		bt2.style.opacity = 1;
+		bt3.style.opacity = 1;
+		bt4.style.opacity = 1;
+		bt5.style.opacity = 1;
+		ok.style.opacity = 1
+	}
+
+document.getElementById("ok").addEventListener("click",myFunction5);
+
+	function myFunction5(){
+		lumière.style.opacity = 1;
+		great2.style.opacity = 1
+	}
+
+
+
+	</script>
+		
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

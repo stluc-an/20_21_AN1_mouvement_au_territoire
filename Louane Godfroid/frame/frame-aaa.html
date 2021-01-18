@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+     <div id="perso3"></div>
+  <div id="rectangle2"></div>
+  
+  <body id="page-a">
+    <p id="bloc">
+      Enfin ça ne risque pas. Moi et mes collègues sommes là pour t'aider en cas de besoin, donc si tu as le moindre problème, vient nous saluer. Alors bon, je peux te proposer deux services : <br>le premier est d'aller directement au portail qui te menera dans l'au-dela.
+          </p>
+
+<a id="next" href="../frame/frame-aaaa.html"></a>
+
+<a id="previous" href="../frame/frame-aa.html"></a>
+    
+  </body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#perso3 {
+  position: absolute;
+  bottom:-10px;
+  right:238px;
+  width:390px;
+  height:650px;
+  background: url(../img/perso2.webp);
+  background-size: cover;
+  opacity: 1
+
+}
+
+#rectangle2{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+ #next {
+  position: absolute;
+  bottom:95px;
+  right:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-6.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+ #bloc{
+   position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:5px;
+  font-family: 'Fraunces', serif;
+  font-size: 15pt;
+   }
+
+        #previous {
+  position: absolute;
+  bottom:95px;
+ left:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-7.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = " Enfin ça ne risque pas. Moi et mes collègues sommes là pour t'aider en cas de besoin, donc si tu as le moindre problème, vient nous saluer. Alors bon, je peux te proposer deux services : <br>le premier est d'aller directement au portail qui te menera dans l'au-dela.";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+
+</script>
+
+</html>

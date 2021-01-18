@@ -1,0 +1,678 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  
+}
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: darkred;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: darkred;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+.main_banner{
+  width: window.innerwidth;
+  height: 50%; 
+  display: flex;
+  flex-direction: column;
+  /*align-items: flex-start;*/
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.allhorror.com%2Fpublic%2Fuploads%2F2018%2F04%2FdeNwbX3ReQuIMYXDCg1cXwqAZu4.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.nav_bar {
+    
+  margin-top: 2rem;
+  width: 100%;
+  height:100%;
+  
+  background-color: ;
+  margin: 1rem auto;
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.TITRE {
+    width: 50%;
+  height: 50%;
+}
+
+.logo_pic {
+  width: 100%;
+  height: 100%;
+  display:inline;
+  flex-direction: row;
+  justify-content: space-around;
+  /*background-color: white;*/
+  /*margin-top: 1rem;
+  margin-bottom: 1rem;*/
+  margin-left: 2rem;
+    
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.logo_pic h1 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float:right;
+  width: 33.33%;
+  padding: 5px;
+    margin: 2px
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    
+}
+ h2 {
+    
+    
+    font-family: Helvetica;
+  font-size: 1.5rem;
+   margin-right: 2rem;
+   margin-bottom: 2.5rem;
+  
+  
+  color: white;
+  }
+
+.logo_pic img {
+ 
+  margin-top: 0.2rem;
+  float: left;
+margin-left: 0px 0px 0px 30px;
+width: 150px;
+height: 38px;
+}
+
+.logo_link {
+    position:fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+    
+   
+/*  background-color: white;*/
+  justify-content: space-around;
+  /*margin-top: 1rem;
+  margin-bottom: 1rem;*/
+  margin-right: 2rem;
+  
+}
+
+.logo_link h1 {
+  
+  font-family: Helvetica;
+  font-size: 1rem;
+  
+  color: white;
+  
+}
+
+.heading_wrapper {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /*background-color: red;*/
+  height: 6rem;
+}
+
+.header_text {
+  width: 35%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-right: 10rem;
+}
+
+.header_text h1 {
+  
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  /*margin-left: 5rem;
+  margin-right: 3rem;*/
+  
+  
+  
+}
+
+.service_wrapper {
+  width: 45%;
+  margin: 0 auto;
+  height: 8rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+figcaption h5{
+  font-weight: bold;
+  text-align: center;
+}
+
+#paper {
+  width: 3.5rem;
+  margin-left: 1rem;
+  height: 4rem;
+}
+
+
+#ruler {
+  width: 5rem;
+  /*margin-right: 6rem;*/
+}
+
+#truck {
+  width: 4rem;
+}
+
+.information {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 8rem;
+  /*background-color: blue;*/
+  
+}
+
+.philosophy {
+  width: 35%;
+  height: 8rem;
+  /*background-color: green;*/
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.philosophy_heading {
+  width: 10rem;
+  background-color: darkred;
+  height: 2rem;
+  
+}
+
+.philosophy_heading h1{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+.philosophy p{
+  margin-top: 1rem;
+  font-family: Helvetica;
+  
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  
+  
+}
+
+.appointments {
+  width: 35%;
+  height: 8rem;
+  /*background-color: orange;*/
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.appointments_heading{
+  width: 10rem;
+  background-color:darkred;
+  height: 2rem;
+}
+
+
+
+.appointments_heading h1{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+
+
+.appointments p{
+  margin-top: 1rem;
+  font-family: Helvetica;
+  
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  
+}
+
+.footer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 10rem;
+  margin: 5rem auto;
+  background-color: azure;
+}
+
+.logo_bottom {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*background-color: blue;*/
+  height: 2rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+}
+
+.logo_bottom img {
+  width: 3rem;
+  height: 1.78rem;
+  margin-top: 0.8rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.logo_bottom h1 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  
+  
+  
+  font-weight: bold;
+  color: black;
+ 
+  
+  
+  
+}
+
+/**************Media query section********/
+@media only screen and (min-width: 470px) {
+ 
+   h2{
+    display: none;
+  }
+  
+  
+
+}
+
+
+@media only screen and (max-width: 470px){
+  
+  .main_banner{
+    height: 17rem;
+    background-size: cover;
+    background-position: 20%;
+    justify-content: space-between;
+  }
+  
+  .nav_bar {
+    height: 3rem;
+    
+   
+  }
+  
+  
+  
+  .logo_pic h1 {
+    display: none;
+  }
+  
+  .logo_link {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  .heading_wrapper {
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .header_text {
+    width: 80%;
+    margin-left: 5rem;
+    
+    
+  }
+  
+   .heading_wrapper .header_text h1{
+    font-size: 1rem;
+    padding: 0;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+    
+  }
+  
+  .service_wrapper {
+    flex-direction: column;
+    margin-top: 9rem;
+    margin-bottom: 14rem;
+  }
+  
+  #ruler {
+    margin-left: 4rem;
+  }
+  
+  #paper {
+    margin-left: 4rem;
+  }
+  
+  #truck {
+    margin-left: 4rem;
+  }
+  
+  .information {
+    
+    flex-direction: column;
+    justify-content: space-around;
+   
+  }
+  
+  .information .philosophy {
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+  }
+  
+  .information .philosophy .philosophy_heading {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  
+  .information .philosophy p{
+    margin-left: 1rem;
+    font-size: 0.77rem;
+  }
+  
+  .information .appointments {
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .information .appointments .appointments_heading {
+    
+    width: 100%;
+    margin-left: 1rem;
+    
+  }
+  
+  .information .appointments p {
+    
+    margin-left: 1rem;
+    font-size: 0.77rem;
+  }
+  
+  .footer .logo_bottom h1{
+    display: none;
+  }
+  
+  
+  
+  .responsive {
+  width: 100%;
+  height: auto;
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+  
+ 
+  
+  .nav_bar {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .main_banner{
+    height: 22rem;
+  }
+  
+  .heading_wrapper {
+    margin-top: 3rem;
+  }
+  
+  .header_text {
+    height: 4rem;
+    margin-right: 10rem;
+  }
+  
+  .header_text h1 {
+    font-size: 1.33rem;
+    margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  }
+  
+  .service_wrapper {
+    width: 50%;
+    
+  }
+  
+  
+  .philosophy,.appointments {
+    width: 25%;
+  }
+  
+  .footer {
+    width: 100%;
+   
+  }
+  
+  .logo_bottom {
+    width: 100%;
+    justify-content:center;
+  }
+  
+  .logo_bottom img{
+    margin-left: 8rem;
+  }
+  
+  .logo_bottom h1{
+    margin-left: 2rem;
+       width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  /*margin-top: 1rem;
+  margin-bottom: 1rem;*/
+  
+  }
+  
+  
+  
+}
+

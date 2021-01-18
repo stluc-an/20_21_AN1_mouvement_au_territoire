@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+    <title>old friend</title>
+<body>
+    <a href=page2.html> <img src="baristaPNG.gif" id="barista1"></a>
+    <input type="image" src="cowboyPNG.gif" id="cowboy1" onclick="txt()" >
+    <input type="image" src="arrow.gif" id="arrow" onclick="next()">
+    <div class="dialogue" id="diabox"></div>
+    <div class="casePerso" id="persoMini"><img src="cowboypfp.gif" id="cpfp"> </div>
+
+<script>
+    function txt() {
+        document.getElementById("demo").innerHTML = "McIntosh: blurp";
+        document.getElementById("diabox").style.opacity = "1";
+        document.getElementById("arrow").style.opacity= "1";
+        document.getElementById("persoMini").style.opacity= "1";
+        document.getElementById("cpfp").style.opacity= "1";
+    }
+    
+    function next() {
+         document.getElementById("demo").innerHTML = "";
+        document.getElementById("diabox").style.opacity = "0";
+        document.getElementById("arrow").style.opacity= "0";
+        document.getElementById("persoMini").style.opacity= "0";
+        document.getElementById("cpfp").style.opacity= "0";
+        
+    }
+    
+    </script>
+    <p id="demo"></p>
+
+<style>
+        body {
+            background-image: url(saloon-sans-persos.gif);
+    
+        }
+</style>
+    <h1></h1>
+    <p></p>
+</body>
+    
+</html>

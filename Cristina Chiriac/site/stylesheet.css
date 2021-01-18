@@ -1,0 +1,162 @@
+body{
+    background-color: #663333;
+    background-repeat: no-repeat;
+    background-position: top;
+    color:  #999966;
+    font-family: "Lucida Console", monospace, sans-serif;
+}
+
+
+#barista1{
+    position: absolute;
+    top: 325px;
+    right: 675px;
+    width: 130px;
+    height:auto; 
+}
+
+#cowboy1{
+    position: absolute;
+    top: 340px;
+    right: 490px;
+    width: 175px;
+    height: auto;
+}
+
+#arrow{
+    position:absolute;
+    width: 50px;
+    top: 670px;
+    left: 1175px;
+    opacity: 0;
+}
+    
+.dialogue {
+    position: absolute;
+    top: 580px;
+    left: 545px;
+    width: 600px; 
+    height:150px;
+    border: solid; 
+    border-color: #999966;
+    background-color: #663333;
+    opacity: 0;
+    padding: 5px;
+
+}
+.casePerso{
+    position: absolute;
+    top: 580px;
+    left: 380px;
+    width: 150px;
+    height: 160px;
+    border: solid; 
+    border-color: #999966;
+    background-color: #663333;
+    opacity: 0;
+}
+
+#demo{
+    position: absolute;
+    top: 580px;
+    left: 600px;
+}
+
+.dia{
+    position: absolute;
+    top: 580px;
+    left: 600px;
+    opacity: 1;
+}
+
+#bigbarista{
+    position: absolute;
+    top: 250px;
+    left: 560px
+}
+
+#moustache {
+    position: absolute;
+    top: 353px;
+    left: 730px;
+}
+
+#confusedBarista {
+    position:absolute;
+    top:233px;
+    left: 559px;
+    opacity: 0;
+}
+
+#bpfp {
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    opacity: 0;
+}
+
+#cpfp {
+    position: absolute;
+    left:6px;
+    width: 145px;
+    height: 160px;
+    opacity: 0;
+}
+
+#bottle {
+    position: absolute;
+    top: 183px;
+    left: 442px;
+}
+
+.arrows{
+    position: absolute;
+    width: 50px;
+    top: 670px;
+    left: 1150px;
+    opacity: 0;
+}
+
+#church{
+    position: absolute;
+    top: 125;
+    left:325;
+    width: 350;
+}
+
+#g1{
+    position: absolute;
+    top:521;
+    width: 250;
+    left: 200;
+}
+#g3{
+    position: absolute;
+    width: 100;
+    top: 450;
+    left: 1000;
+    opacity: 0.9;
+}
+#g2{
+    position: absolute;
+    width: 120;
+    top: 400;
+    left: 212;
+    opacity: 0.7;
+    
+}
+#g4{
+    position: absolute;
+    width: 150;
+    top:525;
+    left: 1190;
+}
+
+
+.returnArrows{
+    position: absolute;
+    width: 50;
+    top:670;
+    transform: scaleX(-1);
+    left: 200;
+}

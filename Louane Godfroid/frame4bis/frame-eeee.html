@@ -1,0 +1,129 @@
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  
+  <body id="page-a">
+    <p id="bloc1">
+      Combien de jours il te reste ?  1 jours...  
+          </p>
+     
+      <p id="bloc3">
+      Ce n'est pas pour t'alarmer mais tu risque de devoir pousser un bon sprint pour pouvoir arriver à temps au portail...
+          </p>
+
+
+    <p>
+      <a id="next4" href="../frame4bis/frame-eeeee.html">next</a>
+      <a id="previous4" href="../frame4bis/frame-eee.html">previous</a>
+
+
+
+
+    </p>
+    
+  </body>
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+ #next4 {
+  position: absolute;
+  bottom:10px;
+  right: 10px;
+  color:black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+} 
+
+ #previous4 {
+  position: absolute;
+  bottom:10px;
+  left: 10px;
+  color:black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+} 
+
+ #bloc1{
+  position: absolute;
+  color:black;
+  top:-10px;
+ font-family: 'Fraunces', serif;
+  font-size: 15pt;
+ }
+
+
+#bloc3{
+  position: absolute;
+  color:black;
+  top:25px;
+ font-family: 'Fraunces', serif;
+  font-size: 15pt;
+ }
+
+
+
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = "Combien de jours il te reste ?  1 jours...";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc1").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+  var chaine = "Ce n'est pas pour t'alarmer mais tu risque de devoir pousser un bon sprint pour pouvoir arriver à temps au portail...";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc3").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+</script>
+
+</html>
+
+
+
+

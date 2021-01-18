@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  
+<div id="persoR1"></div>
+  <div id="rectangleR1"></div>
+
+  <body id="page-a">
+    <p id="bloc1">
+      Hey ! toi là ! oui toi. qu'est ce que tu fais là ? <br> Pardon ? je ne t'entends pas, parle plus fort. Tu t'es perdu dans le labyrinthe. 
+          </p>
+
+           <p id="bloc2">
+      Mais bien sûr que tu t'es perdu petit éffronté ! Ce n'est pas pour rien qu'on appel ça un labyrinthe !   
+       </p>
+
+
+    <p>
+      <a id="next4" href="../frame4/frame-dd.html"></a>
+
+
+
+
+    </p>
+    
+  </body>
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#persoR1 {
+  position: absolute;
+  bottom:0px;
+  right:300px;
+  width:350px;
+  height:650px;
+  background: url(../laby/persoR1.webp);
+  background-size: cover;
+  opacity: 1
+}
+
+
+#rectangleR1{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+
+ #bloc1{
+  position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:5px;
+  font-family: 'Fraunces', serif;
+  font-size: 15pt;
+   }
+
+    #bloc2{
+  position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:-70px;
+  font-family: 'Fraunces', serif;
+  font-size: 13pt;
+  letter-spacing: 0.1em;
+   }
+
+ #next4 {
+  position: absolute;
+  bottom:95px;
+  right:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-6.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = " Hey ! toi là ! oui toi. qu'est ce que tu fais là ? <br> Pardon ? je ne t'entends pas, parle plus fort. Tu t'es perdu dans le labyrinthe.";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc1").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+  var chaine = "Mais bien sûr que tu t'es perdu petit éffronté ! Ce n'est pas pour rien qu'on appel ça un labyrinthe ! ";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc2").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+</script>
+
+
+</html>
+
+

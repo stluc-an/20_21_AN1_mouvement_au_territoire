@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+    
+</head>
+<body>
+    <a href="p2.1.html"><img src="bottle.gif" id="bottle"></a>
+    
+    <img src="bigbarista.gif" id="bigbarista">
+    <a href="index.html"><img src="arrow.gif" id="arrow"></a>
+    <a href="index.html"><img src="arrow.gif" class="arrows"></a>
+    <img src="confusedBarista.gif" id="confusedBarista">
+    <input type="image" src="moustache.gif" id="moustache" onclick="confusion()">
+    <div class="casePerso" id="persoMini"><img src="baristapfp.gif" id="bpfp"><img src="cowboypfp.gif" id="cpfp"> </div>
+    <div class="dialogue" id="diabox"><p id="d1"> Mr.Marshall: What can i do for you ?</p></div>
+    
+     <script>
+         
+        function confusion(){
+            document.getElementById("d1").innerHTML="Mr.Marshall: What?! Why are you touching my moustache you drunk fool!Step back!" ;
+            document.getElementById("confusedBarista").style.opacity= "1";
+            document.getElementById("arrow").style.opacity= "1";
+         }
+       
+    </script>
+    
+    <style>
+        body {
+            background-image:  url(baristabg.gif);
+        }
+        
+        #diabox {
+            opacity: 1;
+            
+        }
+        #persoMini{
+            opacity: 1;
+        }
+        
+        #bpfp{
+            opacity: 1;
+        }
+    </style>
+    
+
+</body>
+</html>

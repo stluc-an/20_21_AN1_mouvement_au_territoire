@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+   <div id="persoL5"></div>
+  <div id="rectangleL5"></div>
+  
+  <body id="page-a">
+    <p id="bloc">
+      Mais prends garde aux nombres de jours qui te reste avant de devoir rejoindre le portail. <br>alors que décides tu ?
+          </p> 
+
+
+
+
+    <p>
+      <a id="previous2" href="../frame2/frame-bbbb.html"></a>
+      <a id="laby" href="../laby.html" target="_top">Labyrinthe</a>
+      <a id="portail2" href="../portailfin.html" target="_top">portail</a>
+
+    </p>
+
+    
+  </body>
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#persoL5 {
+  position: absolute;
+  bottom:0px;
+  right:300px;
+  width:350px;
+  height:650px;
+  background: url(../lymbis/persoL5.webp);
+  background-size: cover;
+  opacity: 1
+}
+
+
+ #rectangleL5{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+
+ #bloc{
+   position: absolute;
+  width: 650px;
+  height:200px;
+  left:27%;
+  color:black;
+  bottom:5px;
+  font-family: 'Fraunces', serif;
+  font-size: 15pt;
+   }
+
+        #previous2 {
+  position: absolute;
+  bottom:95px;
+ left:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-7.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+
+
+     #laby {
+  position: absolute;
+   bottom:155px;
+  right:395px;
+  color:black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+}
+
+#laby:hover{
+  color:red;
+}
+
+   #portail2 {
+  position: absolute;
+   bottom:105px;
+  right:395px;
+  color:black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 15pt;
+  letter-spacing: 0.1em;
+}
+
+#portail2:hover{
+  color:red;
+}
+
+
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = "Mais prends garde aux nombres de jours qui te reste avant de devoir rejoindre le portail. <br>alors que décides tu ?";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+
+
+</script>
+
+</html>

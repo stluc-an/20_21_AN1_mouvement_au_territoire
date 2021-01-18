@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+   <div id="persoL2"></div>
+  <div id="rectangleL2"></div>
+  
+  <body id="page-a">
+    <p id="bloc">
+      4 jours ?!?!
+          </p>
+
+
+    <p>
+      <a id="next2" href="../frame2bis/frame-fff.html"></a>
+       <a id="previous2" href="../frame2bis/frame-f.html"></a>
+    </p>
+
+
+
+    </p>
+    
+  </body>
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+#persoL2 {
+  position: absolute;
+  bottom:0px;
+  right:300px;
+  width:350px;
+  height:650px;
+  background: url(../lymbis/persoL2.webp);
+  background-size: cover;
+  opacity: 1
+}
+
+
+#rectangleL2{
+  position: absolute;
+  bottom:90px;
+  left:25%;
+  height:150px;
+  width:700px;
+  background-color: white;
+}
+
+ #bloc{
+  position: absolute;
+  width: 650px;
+  height:200px;
+  left:45%;
+  color:black;
+  bottom:-40px;
+  font-family: 'Fraunces', serif;
+  font-size: 25pt;
+   }
+
+ #next2 {
+  position: absolute;
+  bottom:95px;
+  right:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-6.webp);
+  background-size: cover;
+  z-index: 5
+}
+
+        #previous2 {
+  position: absolute;
+  bottom:95px;
+ left:395px;
+  width:50px;
+  height:25px;
+  background: url(../img/1-7.webp);
+  background-size: cover;
+  z-index: 5
+}
+</style>
+
+<script type="text/javascript">
+  
+  var chaine = "4 jours ?!?!";
+  var nb_car = chaine.length;
+  var tableau = chaine.split("");
+  texte = new Array;
+var txt = '';
+var nb_msg = nb_car - 1;
+for (i=0; i<nb_car; i++) {
+texte[i] = txt+tableau[i];
+var txt = texte[i];
+}
+
+actual_texte = 0;
+function changeMessage()
+{
+document.getElementById("bloc").innerHTML = texte[actual_texte];
+actual_texte++;
+if(actual_texte >= texte.length)
+actual_texte = nb_msg;
+}
+if(document.getElementById)
+
+setInterval("changeMessage()",25) /* la vitesse de defilement (plus on a une valeur faible plus 
+texte s'affiche rapidement) */
+</script>
+
+</html>
